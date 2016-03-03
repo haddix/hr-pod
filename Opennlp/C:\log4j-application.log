@@ -15423,3 +15423,290 @@ java.lang.IndexOutOfBoundsException: Index: 368, Size: 368
 2016-03-03 11:23:21 INFO  Opennlp:84 - STEMMED WORD: based => base
 2016-03-03 11:23:21 INFO  Opennlp:84 - STEMMED WORD: Single Scope Background Investigation => Single Scope Background Investig
 2016-03-03 11:23:21 INFO  Opennlp:87 - DONE
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 655 : save
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 727 : ,
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 18 : alone
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 643 : present
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 730 : :
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 344 : per
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 725 : year
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 344 : per
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 698 : week
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 730 : :
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 730 : :
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 730 : :
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 730 : :
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 109 : definitely
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 743 : (
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 456 : this
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 205 : his
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 0 : a
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 742 : )
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 727 : ,
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 28 : and
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 648 : related
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 730 : :
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 28 : and
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 62 : before
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 494 : using
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 28 : and
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 729 : .
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 5 : according
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 29 : another
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 230 : into
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 230 : into
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 230 : into
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 618 : include
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 743 : (
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 729 : .
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 647 : provided
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 28 : and
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 62 : before
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 230 : into
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 618 : include
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 729 : .
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 228 : insofar
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 162 : from
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 230 : into
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 327 : onto
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 729 : .
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 548 : with
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 230 : into
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 28 : and
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 28 : and
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 729 : .
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 62 : before
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 270 : many
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 162 : from
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 585 : designed
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 28 : and
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 230 : into
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 28 : and
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 29 : another
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 727 : ,
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 679 : tested
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 28 : and
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 28 : and
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 729 : .
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 62 : before
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 28 : and
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 230 : into
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 18 : alone
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 0 : a
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 729 : .
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 730 : :
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 743 : (
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 742 : )
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 320 : okay
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 230 : into
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 456 : this
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 730 : :
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 557 : yes
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 727 : ,
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 344 : per
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 698 : week
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 730 : :
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 730 : :
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 730 : :
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 730 : :
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 743 : (
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 456 : this
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 205 : his
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 0 : a
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 742 : )
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 727 : ,
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 28 : and
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 648 : related
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 730 : :
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 62 : before
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 29 : another
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 228 : insofar
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 7 : across
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 29 : another
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 743 : (
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 228 : insofar
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 742 : )
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 230 : into
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 618 : include
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 727 : ,
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 28 : and
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 729 : .
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 228 : insofar
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 62 : before
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 727 : ,
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 46 : aside
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 28 : and
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 729 : .
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 29 : another
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 230 : into
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 28 : and
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 729 : .
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 727 : ,
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 28 : and
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 18 : alone
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 729 : .
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 727 : ,
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 344 : per
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 698 : week
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 730 : :
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 730 : :
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 730 : :
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 730 : :
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 743 : (
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 456 : this
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 205 : his
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 0 : a
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 742 : )
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 727 : ,
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 28 : and
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 648 : related
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 730 : :
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 647 : provided
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 230 : into
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 228 : insofar
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 29 : another
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 743 : (
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 742 : )
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 7 : across
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 742 : )
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 28 : and
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 29 : another
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 743 : (
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 502 : viz
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 742 : )
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 729 : .
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 28 : and
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 434 : their
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 494 : using
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 729 : .
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 727 : ,
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 18 : alone
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 344 : per
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 698 : week
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 730 : :
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 730 : :
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 730 : :
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 730 : :
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 109 : definitely
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 743 : (
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 456 : this
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 205 : his
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 0 : a
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 742 : )
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 727 : ,
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 28 : and
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 648 : related
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 730 : :
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 28 : and
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 62 : before
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 494 : using
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 729 : .
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 647 : provided
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 28 : and
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 62 : before
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 230 : into
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 618 : include
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 28 : and
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 729 : .
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 228 : insofar
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 162 : from
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 230 : into
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 327 : onto
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 729 : .
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 548 : with
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 230 : into
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 28 : and
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 28 : and
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 729 : .
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 62 : before
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 270 : many
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 162 : from
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 585 : designed
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 28 : and
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 230 : into
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 28 : and
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 29 : another
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 727 : ,
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 679 : tested
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 28 : and
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 28 : and
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 729 : .
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 62 : before
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 28 : and
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 230 : into
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 18 : alone
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 0 : a
+2016-03-03 12:28:05 INFO  Opennlp:151 - REMOVE WORD: 729 : .
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: Defense Intelligence Agency 901 Blvd Offutt AFB => Defense Intelligence Agency 901 Blvd Offutt AFB
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: 68113 => 68113
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: United States 10/2006 => United States 10/2006
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: Salary => Salari
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: 85,000.00 USD Hours 40 Series 2210 Pay Plan GG Grade 13 Specialist federal job Duties => 85,000.00 USD Hours 40 Series 2210 Pay Plan GG Grade 13 Specialist federal job Duti
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: Accomplishments => Accomplish
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: Skills Lead developer analyst web based applications => Skills Lead developer analyst web based appl
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: JAVA ASP .NET technologies Technical lead agency effort migrate applications => JAVA ASP .NET technologies Technical lead agency effort migrate appl
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: cloud based => cloud bas
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: platforms Amazon Web Services AWS ) development technical support vendor software Microsoft SharePoint Managed coordination contractors application development final product deployment multiple government systems => platforms Amazon Web Services AWS ) development technical support vendor software Microsoft SharePoint Managed coordination contractors application development final product deployment multiple government system
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: Worked => Work
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: directly users => directly us
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: build => build
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: use-cases => use-cas
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: define => defin
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: application requirements business processes Responsible application life cycles => application requirements business processes Responsible application life cycl
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: composing => compos
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: Estimate documents => Estimate docu
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: developing testing => developing test
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: application creating scripts => application creating script
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: authoring => author
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: user level developer level documentation Cleared Top Secret information => user level developer level documentation Cleared Top Secret inform
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: granted => grant
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: access Sensitive Compartmented Information => access Sensitive Compartmented Inform
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: based => base
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: Single Scope Background Investigation Supervisor Ajay Kodali 202-231-3171 contact Supervisor Defense Intelligence Agency => Single Scope Background Investigation Supervisor Ajay Kodali 202-231-3171 contact Supervisor Defense Intelligence Ag
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: Deployment Bagram Bagram Afghanistan 11/2012 => Deployment Bagram Bagram Afghanistan 11/2012
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: 05/2013 Hours 80 Series 2210 Pay Plan GG Grade 13 5/13/2015 USAJOBS => 05/2013 Hours 80 Series 2210 Pay Plan GG Grade 13 5/13/2015 USAJOBS
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: Resumes => Resum
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: https => http
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: ://my => ://my
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: .usajobs.gov/Applicant/Resume/ListResumes => .usajobs.gov/Applicant/Resume/ListResum
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: 2/3 => 2/3
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: C4ISR Planner federal job Duties => C4ISR Planner federal job Duti
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: Accomplishments => Accomplish
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: Skills Lead planner => Skills Lead plann
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: coordinating => coordin
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: installation Top Secret JWICS SCIFs AOR Area Responsibility Kabul Herat Mezari Serif Managed coordination contractors Networks Desk Support Server Operations Worked => installation Top Secret JWICS SCIFs AOR Area Responsibility Kabul Herat Mezari Serif Managed coordination contractors Networks Desk Support Server Operations Work
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: alongside => alongsid
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: leadership => leadership
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: create enforce => create enforc
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: policy Created => policy Cr
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: managed maintained => managed maintain
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: SharePoint sites multiple networks Defense Intelligence Agency => SharePoint sites multiple networks Defense Intelligence Ag
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: Deployment Camp Slayer Baghdad Iraq 03/2010 => Deployment Camp Slayer Baghdad Iraq 03/2010
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: 09/2010 Hours 80 Series 2210 Pay Plan GG Grade 12 Knowledge Manager federal job Duties Accomplishments => 09/2010 Hours 80 Series 2210 Pay Plan GG Grade 12 Knowledge Manager federal job Duties Accomplish
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: Skills => Skill
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: technical support multiple sections => technical support multiple sect
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: USF-I United States Forces-Iraq Intelligence Community Victory Base Complex (VBC International Zone Optimized simplified daily processes => USF-I United States Forces-Iraq Intelligence Community Victory Base Complex (VBC International Zone Optimized simplified daily process
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: existing/available technologies => existing/available technologi
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: USSTRATCOM => USSTRATCOM
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: 901 SAC Blvd Offutt AFB => 901 SAC Blvd Offutt AFB
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: 68113 => 68113
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: United States 03/2005 => United States 03/2005
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: 10/2006 Hours 40 Series 2210 Pay Plan GG Grade 11 Specialist federal job Duties => 10/2006 Hours 40 Series 2210 Pay Plan GG Grade 11 Specialist federal job Duti
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: Accomplishments => Accomplish
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: Skills Lead developer analyst web based applications => Skills Lead developer analyst web based appl
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: JAVA Oracle technologies development technical support vendor software Oracle Portal Microsoft SharePoint Managed coordination contractors application development final product deployment multiple government systems => JAVA Oracle technologies development technical support vendor software Oracle Portal Microsoft SharePoint Managed coordination contractors application development final product deployment multiple government system
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: Worked => Work
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: directly users => directly us
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: build => build
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: use-cases define application requirements business processes Responsible application life cycles => use-cases define application requirements business processes Responsible application life cycl
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: composing => compos
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: Estimate documents => Estimate docu
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: developing testing => developing test
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: application creating scripts => application creating script
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: authoring => author
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: user level developer level documentation Cleared Top Secret information => user level developer level documentation Cleared Top Secret inform
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: granted => grant
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: access Sensitive Compartmented Information => access Sensitive Compartmented Inform
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: based => base
+2016-03-03 12:28:06 INFO  Opennlp:84 - STEMMED WORD: Single Scope Background Investigation => Single Scope Background Investig
+2016-03-03 12:28:06 INFO  Opennlp:87 - DONE
