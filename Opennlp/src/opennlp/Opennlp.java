@@ -18,15 +18,13 @@ import opennlp.tools.tokenize.TokenizerME;
 import opennlp.tools.tokenize.TokenizerModel;
 import opennlp.tools.util.Sequence;
 import opennlp.tools.util.Span;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
 import org.tartarus.snowball.ext.PorterStemmer;
 
 public class Opennlp {
 
     final static Logger logger = Logger.getLogger(Opennlp.class);
-    private static String[] posTags = {"CC", "CD", "DT", "EX", "FW", "IN", "JJ", "JJR", "JJS", "LS", "MD", "NN", "NNS",
-        "NNP", "NNPS", "PDT", "POS", "PRP", "PRP$", "RB", "RBR", "RBS", "RP", "SYM", "TO",
-        "UH", "VB", "VBD", "VBG", "VBN", "VBP", "VBZ", "WDT", "WP", "WP$", "WRB"};
 
     public static void main(String[] args) throws FileNotFoundException, IOException {
 
@@ -43,55 +41,53 @@ public class Opennlp {
         String references = "References:";
         String additionalInfo = "Additional\nInformation:";
 
-        String introTxt = null;
-        String availabilityTxt = null;
-        String desiredLocationsTxt = null;
-        String workExperinceTxt = null;
-        String educationTxt = null;
-        String trainingTxt = null;
-        String referencesTxt = null;
-        String additionalInfoTxt = null;
 
         //logger.info(resume);
-        introTxt = resume.substring(0, resume.indexOf(availability));
-        availabilityTxt = resume.substring(resume.indexOf(availability) + (availability.length()), resume.indexOf(desiredLocations));
-        desiredLocationsTxt = resume.substring(resume.indexOf(desiredLocations) + (desiredLocations.length()), resume.indexOf(workExperince));
-        workExperinceTxt = resume.substring(resume.indexOf(workExperince) + (workExperince.length()), resume.indexOf(education));
-        educationTxt = resume.substring(resume.indexOf(education) + (education.length()), resume.indexOf(training));
-        trainingTxt = resume.substring(resume.indexOf(training) + (training.length()), resume.indexOf(references));
-        referencesTxt = resume.substring(resume.indexOf(references) + (references.length()), resume.indexOf(additionalInfo));
-        additionalInfoTxt = resume.substring(resume.indexOf(additionalInfo) + (additionalInfo.length()), resume.length());
+        String introTxt = resume.substring(0, resume.indexOf(availability));
+        String availabilityTxt = resume.substring(resume.indexOf(availability) + (availability.length()), resume.indexOf(desiredLocations));
+        String desiredLocationsTxt = resume.substring(resume.indexOf(desiredLocations) + (desiredLocations.length()), resume.indexOf(workExperince));
+        String workExperinceTxt = resume.substring(resume.indexOf(workExperince) + (workExperince.length()), resume.indexOf(education));
+        String educationTxt = resume.substring(resume.indexOf(education) + (education.length()), resume.indexOf(training));
+        String trainingTxt = resume.substring(resume.indexOf(training) + (training.length()), resume.indexOf(references));
+        String referencesTxt = resume.substring(resume.indexOf(references) + (references.length()), resume.indexOf(additionalInfo));
+        String additionalInfoTxt = resume.substring(resume.indexOf(additionalInfo) + (additionalInfo.length()), resume.length());
 
         try {
-
-            /*
-             tokenize text into a string array and then remove any common words and punctuation
-             */
-            TokenizerModel tokenModel = new TokenizerModel(new File("src/models/en-token.bin"));
-            Tokenizer tokenizer = new TokenizerME(tokenModel);
-            StopWordRemoval swr = new StopWordRemoval();
-            workExperinceTxt = swr.removeStopWords(tokenizer.tokenize(workExperinceTxt));
             
-            String words[] = tokenize(workExperinceTxt);
-
-            PorterStemmer stemmer = new PorterStemmer();
-            for (int w = 0; w < words.length; w++) {
-                String word = words[w].toString();
-                stemmer.setCurrent(word); //set string you need to stem
-                stemmer.stem();
-                String stemmedWord = stemmer.getCurrent();
-                words[w] = stemmedWord;
-                logger.info("STEMMED WORD: " + word + " => " + stemmedWord);
-            }
+            String words[] = tokenize(workExperinceTxt);//tokenize into words and phrases
+            
+            ArrayList<String> wordList = new StopWordRemoval().removeStopWords(words); //remove stop words
+            
+            wordList = stemmer(wordList);//stem words
 
             logger.info("DONE");
 
-        } catch (IOException e) {
-            logger.error("ERROR: ", e);
-        } catch (Exception ex) {
+        }catch (Exception ex) {
             logger.error("ERROR", ex);
         }
 
+    }
+    
+    
+    public static ArrayList<String> stemmer(ArrayList<String> wordList) {
+        PorterStemmer stemmer = new PorterStemmer();
+        for(int wl = 0; wl < wordList.size(); wl++){
+            logger.info("OLD WORD: " + wordList.get(wl));
+            ArrayList<String> subWordList = new ArrayList();
+            subWordList.addAll(Arrays.asList(wordList.get(wl).split(" ")));
+            for(int swl = 0; swl < subWordList.size(); swl++){
+                String word = subWordList.get(swl);
+                stemmer.setCurrent(word); //set string you need to stem
+                stemmer.stem();
+                String stemmedWord = stemmer.getCurrent();
+                subWordList.set(swl, stemmedWord);
+            }            
+            wordList.set(wl, StringUtils.join(subWordList, " "));
+            logger.info("NEW WORD: " + wordList.get(wl));
+        }
+        
+        return wordList;
+        
     }
 
     public static String[] tokenize(String text) {

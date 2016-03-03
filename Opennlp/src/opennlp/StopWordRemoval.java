@@ -136,27 +136,38 @@ public class StopWordRemoval {
 
     }
 
-    public String removeStopWords(String[] words) {
+    public ArrayList<String> removeStopWords(String[] words) {
         
         String newText = null;
 
         ArrayList<String> wordList = new ArrayList();
         wordList.addAll(Arrays.asList(words));
         //find stop/common words and remove them
-        for (int i = 0; i < wordList.size(); i++) {
-            String word = wordList.get(i);
-            for (int j = 0; j < stopWords.length; j++) {                
-                String stopWord = stopWords[j];
-                if (stopWords[j].toLowerCase().contains(wordList.get(i).toLowerCase())) {
-                    logger.info("REMOVE WORD: " + j + " : " + stopWords[j]);
-                    wordList.remove(i);
-                    i--;
-                    break;
+        for (int w = 0; w < wordList.size(); w++) {
+            String word = wordList.get(w);
+            //break phrases down into individaul words
+            ArrayList<String> subWordList = new ArrayList();
+            subWordList.addAll(Arrays.asList(wordList.get(w).split(" ")));
+            //remove the stop words
+            for(int swl = 0; swl < subWordList.size(); swl++){
+                for (int sw = 0; sw < stopWords.length; sw++) {                
+                    String stopWord = stopWords[sw];
+                    if (stopWords[sw].toLowerCase().contains(subWordList.get(swl).toLowerCase())) {
+                        logger.info("REMOVE WORD: " + stopWords[sw]);
+                        subWordList.remove(swl);
+                        swl--;
+                        break;
+                    }
                 }
-            }            
+            }
+            wordList.set(w, StringUtils.join(subWordList, " "));
+            if(wordList.get(w).trim().equals("")){
+                wordList.remove(w);
+                w--;
+            }
         }
         
-        newText = StringUtils.join(wordList, " ");
-        return newText;
+        //newText = StringUtils.join(wordList, " ");
+        return wordList;
     }
 }
