@@ -1,0 +1,18 @@
+Application:
+  name: SMMAC
+  datasets:
+    - type: ezelastic
+      service_name: ezelastic
+      number_of_instances: 1
+  Services:
+    - artifact_info:
+        config: []
+        language: Java
+      type: WebApp
+      external_web_url: smmac/smmac
+      internal_web_url: smmac/smmac
+      web_app_name: SMMAC
+      version: “2.2”
+      scaling:
+        number_of_instances: 1
+      database: ElasticSearch

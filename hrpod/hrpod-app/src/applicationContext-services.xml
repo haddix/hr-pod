@@ -1,0 +1,989 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:jee="http://www.springframework.org/schema/jee"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:dwr="http://www.directwebremoting.org/schema/spring-dwr"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+                           http://www.springframework.org/schema/context
+                           http://www.springframework.org/schema/context/spring-context-3.1.xsd
+                           http://www.springframework.org/schema/aop
+                           http://www.springframework.org/schema/aop/spring-aop-3.1.xsd
+                           http://www.springframework.org/schema/jee
+                           http://www.springframework.org/schema/jee/spring-jee-3.1.xsd
+                           http://www.springframework.org/schema/mvc
+                           http://www.springframework.org/schema/mvc/spring-mvc-3.1.xsd
+                           http://www.springframework.org/schema/tx
+                           http://www.springframework.org/schema/tx/spring-tx-3.1.xsd
+                           http://www.directwebremoting.org/schema/spring-dwr
+                           http://www.directwebremoting.org/schema/spring-dwr-3.0.xsd">
+
+    <context:annotation-config/>
+
+    <jee:jndi-lookup id="entityManagerFactory" jndi-name="java:comp/env/persistence/mistic-databasePU" expected-type="javax.persistence.EntityManagerFactory"/>
+    <jee:jndi-lookup id="misticDS" jndi-name="java:jboss/env/jdbc/misticDS"/>
+   <bean id="transactionManager" class="org.springframework.transaction.jta.JtaTransactionManager">
+        <property name="transactionManagerName" value="java:/TransactionManager"/>
+        <property name="defaultTimeout" value="600"/>
+    </bean>    
+    <tx:annotation-driven proxy-target-class="true"/>
+
+    <!--
+        Configurer that replaces ${...} placeholders with values from a
+        properties file or, in this case, MASD's SYSTEM_PREF table.
+    -->
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="properties" >
+            <bean class="mistic.util.SystemPreferencePropertiesCreator" factory-method="getProperties"/>
+        </property>
+    </bean>
+
+    <!-- Retrieves the mistic version number from the MISTIC-VERSION file and stores it
+         in its corresponding system preference. This is required so the version number
+         will be retrievable when audits are written for DBMS scheduled jobs in MASD. -->
+    <bean class="mistic.util.MisticVersion" factory-method="setVersionSystemPreference"/>
+
+    <bean name="permissionInterceptor" class="mistic.interceptor.PermissionInterceptor" autowire="byType"/>
+    <bean name="auditInterceptor" class="mistic.interceptor.AuditInterceptor" autowire="byType"/>
+    <bean name="performanceLogInterceptor" class="mistic.interceptor.PerformanceLogInterceptor" autowire="byType"/>
+    <bean id="performance" class="org.springframework.aop.interceptor.PerformanceMonitorInterceptor" />
+    <bean id="debug" class="org.springframework.aop.interceptor.DebugInterceptor" />
+    <bean id="errorResolver" class="mistic.interceptor.ErrorResolver" >
+        <property name="comparer" ref="errorResolverUtil"/>
+    </bean>
+
+    <bean name="errorResolverUtil" class="mistic.util.ErrorResolverUtil">
+         <property name="classCompares">
+          <map>
+           <entry key="mistic.facade.CommentFacadeImpl" value-ref="errorCommentFacade" />
+           <entry key="mistic.facade.CommentFacadeImpl.deleteComment" value-ref="errorCommentFacade.deleteComment" />
+           <entry key="mistic.facade.CommentFacadeImpl.getCommentsByMsg" value-ref="errorCommentFacade.getCommentsByMsg" />
+           <entry key="mistic.facade.CommentFacadeImpl.getComment" value-ref="errorCommentFacade.getComment" />
+           <entry key="mistic.facade.CommentFacadeImpl.saveComment" value-ref="errorCommentFacade.saveComment" />
+           <entry key="mistic.facade.SensitiveWordFacadeImpl" value-ref="errorSensitiveWordFacade" />
+           <entry key="mistic.facade.SecurityMarkingFacadeImpl" value-ref="errorSecurityMarkingFacade" />
+           <entry key="mistic.dao.DraftAttachmentDAO" value-ref="errorDraftAttachmentDAO" />
+           <entry key="mistic.dao.DraftDAO" value-ref="errorDraftDAO" />
+           <entry key="mistic.dao.DraftHistoryDAO" value-ref="errorDraftHistoryDAO" />
+           <entry key="mistic.dao.FolderDAO" value-ref="errorFolderDAO" />
+           <entry key="mistic.dao.FolderShareDAO" value-ref="errorFolderShareDAO" />
+           <entry key="mistic.dao.MessageDAO" value-ref="errorMessageDAO" />
+           <entry key="mistic.dao.ReleaseCandidateDAO" value-ref="errorReleaseCandidateDAO" />
+           <entry key="mistic.dao.SavedSearchDAO" value-ref="errorSavedSearchDAO" />
+           <entry key="mistic.dao.SystemPreferenceDAO" value-ref="errorSystemPreferenceDAO" />
+          </map>
+         </property>
+    </bean>
+    <bean name="errorSensitiveWordFacade" class="mistic.util.ErrorResolverDefinition">
+         <property name="checkVariable" value="false" />
+         <property name="errorMessages">
+            <list>
+                <value>An unexpected error has occurred.</value>
+                <value>There was a problem with the IAP service.</value>
+            </list>
+         </property>
+         <property name="methodNames">
+            <map>
+                <entry key="deleteWordLists" value="1" />
+                <entry key="getAllWordLists" value="1" />
+                <entry key="retrieveWordList" value="1" />
+                <entry key="saveWordList" value="1" />
+            </map>
+         </property>
+    </bean>
+    <bean name="errorFolderShareDAO" class="mistic.util.ErrorResolverDefinition">
+         <property name="checkVariable" value="false" />
+         <property name="errorMessages">
+            <list>
+                <value>An unexpected error has occurred.</value>
+                <value>There was a problem with the IAP service.</value>
+            </list>
+         </property>
+         <property name="methodNames">
+            <map>
+                <entry key="addUsersToFolders" value="1" />
+                <entry key="removeUserFromFolders" value="1" />
+            </map>
+         </property>
+    </bean>
+    <bean name="errorMessageDAO" class="mistic.util.ErrorResolverDefinition">
+         <property name="checkVariable" value="false" />
+         <property name="errorMessages">
+            <list>
+                <value>An unexpected error has occurred.</value>
+                <value>There was a problem with the IAP service.</value>
+                <value>There was a problem with the Archive service.</value>
+            </list>
+         </property>
+         <property name="methodNames">
+            <map>
+                <entry key="addSearchResultsToFolder" value="1" />
+                <entry key="markMessageRead" value="1" />
+                <entry key="markMessageUnread" value="1" />
+                <entry key="markMessageListUnread" value="1" />
+                <entry key="markMessageListRead" value="1" />
+                <entry key="moveMessages" value="1" />
+                <entry key="addMessagesToFolder" value="1" />
+                <entry key="deleteMessagesFromFolder" value="1" />
+                <entry key="emptyFolder" value="1" />
+                <entry key="copyMessages" value="1" />
+                <entry key="getMessagesFromFolder" value="1" />
+                <entry key="getMessageFromCdir" value="2" />
+                <entry key="getAttachment" value="2" />
+            </map>
+         </property>
+    </bean>
+    <bean name="errorSystemPreferenceDAO" class="mistic.util.ErrorResolverDefinition">
+         <property name="checkVariable" value="false" />
+         <property name="errorMessages">
+            <list>
+                <value>An unexpected error has occurred.</value>
+                <value>There was a problem with the IAP service.</value>
+            </list>
+         </property>
+         <property name="methodNames">
+            <map>
+                <entry key="updateSystemPreferences" value="1" />
+            </map>
+         </property>
+    </bean>
+    <bean name="errorSavedSearchDAO" class="mistic.util.ErrorResolverDefinition">
+         <property name="checkVariable" value="false" />
+         <property name="errorMessages">
+            <list>
+                <value>An unexpected error has occurred.</value>
+                <value>There was a problem with the IAP service.</value>
+            </list>
+         </property>
+         <property name="methodNames">
+            <map>
+                <entry key="remove" value="1" />
+                <entry key="search" value="1" />
+                <entry key="edit" value="1" />
+                <entry key="create" value="1" />
+                <entry key="find" value="1" />
+            </map>
+         </property>
+    </bean>
+    <bean name="errorFolderDAO" class="mistic.util.ErrorResolverDefinition">
+         <property name="checkVariable" value="false" />
+         <property name="errorMessages">
+            <list>
+                <value>An unexpected error has occurred.</value>
+                <value>There was a problem with the IAP service.</value>
+            </list>
+         </property>
+         <property name="methodNames">
+            <map>
+                <entry key="create" value="1" />
+                <entry key="getUnreadCountsForPerson" value="1" />
+                <entry key="createCopy" value="1" />
+            </map>
+         </property>
+    </bean>
+    <bean name="errorDraftAttachmentDAO" class="mistic.util.ErrorResolverDefinition">
+         <property name="checkVariable" value="false" />
+         <property name="errorMessages">
+            <list>
+                <value>An unexpected error has occurred.</value>
+                <value>There was a problem with the IAP service.</value>
+            </list>
+         </property>
+         <property name="methodNames">
+            <map>
+                <entry key="deleteAttachment" value="1" />
+                <entry key="getAttachmentListForDraft" value="1" />
+            </map>
+         </property>
+    </bean>
+    <bean name="errorDraftDAO" class="mistic.util.ErrorResolverDefinition">
+         <property name="checkVariable" value="false" />
+         <property name="errorMessages">
+            <list>
+                <value>An unexpected error has occurred.</value>
+                <value>There was a problem with the IAP service.</value>
+            </list>
+         </property>
+         <property name="methodNames">
+            <map>
+                <entry key="getDraftMetaDataForFolder" value="1" />
+                <entry key="getDraftsByFolderId" value="1" />
+                <entry key="remove" value="1" />
+                <entry key="edit" value="1" />
+                <entry key="create" value="1" />
+                <entry key="find" value="1" />
+            </map>
+         </property>
+    </bean>
+    <bean name="errorDraftHistoryDAO" class="mistic.util.ErrorResolverDefinition">
+         <property name="checkVariable" value="false" />
+         <property name="errorMessages">
+            <list>
+                <value>An unexpected error has occurred.</value>
+                <value>There was a problem with the IAP service.</value>
+            </list>
+         </property>
+         <property name="methodNames">
+            <map>
+                <entry key="deleteHistorybyDraftId" value="1" />
+                <entry key="delete" value="1" />
+                <entry key="create" value="1" />
+                <entry key="getHistory" value="1" />
+            </map>
+         </property>
+    </bean>
+    <bean name="errorReleaseCandidateDAO" class="mistic.util.ErrorResolverDefinition">
+         <property name="checkVariable" value="false" />
+         <property name="errorMessages">
+            <list>
+                <value>An unexpected error has occurred.</value>
+                <value>There was a problem with the IAP service.</value>
+            </list>
+         </property>
+         <property name="methodNames">
+            <map>
+                <entry key="update" value="1" />
+                <entry key="remove" value="1" />
+                <entry key="create" value="1" />
+                <entry key="getReleaseCandidatesWithMetaData" value="1" />
+                <entry key="find" value="1" />
+            </map>
+         </property>
+    </bean>
+    <bean name="errorSecurityMarkingFacade" class="mistic.util.ErrorResolverDefinition">
+         <property name="checkVariable" value="false" />
+         <property name="errorMessages">
+            <list>
+                <value>An unexpected error has occurred.</value>
+                <value>There was a problem with the CMT service.</value>
+            </list>
+         </property>
+         <property name="methodNames">
+            <map>
+                <entry key="cmtToSecurityMarking" value="1" />
+                <entry key="getClassInfo" value="1" />
+                <entry key="populateBanner" value="1" />
+                <entry key="aggregateICISMToBanner" value="1" />
+                <entry key="rollUp" value="1" />
+                <entry key="populatePortionLabel" value="1" />
+                <entry key="retrievePortionMarking" value="1" />
+            </map>
+         </property>
+    </bean>
+    <bean name="errorCommentFacade" class="mistic.util.ErrorResolverDefinition">
+         <property name="checkVariable" value="false" />
+         <property name="errorMessages">
+            <list>
+                <value>An unexpected error has occurred.</value>
+                <value>There was a problem with the IAP service.</value>
+            </list>
+         </property>
+         <property name="methodNames">
+            <map>
+                <entry key="copyDraftCommentsToMessage" value="1" />
+                <entry key="deleteCommentsByDraftId" value="1" />
+            </map>
+         </property>
+    </bean>
+    <bean name="errorCommentFacade.deleteComment" class="mistic.util.ErrorResolverDefinition">
+         <property name="paramNumber" value="1" />
+         <property name="checkVariable" value="true" />
+         <property name="variableGetMethodName" value="toString" />
+         <property name="variableValue" value="ARCHIVE" />
+         <property name="errorMessages">
+            <list>
+                <value>There was a problem with the IAP service.</value>
+                <value>There was a problem with the Archive service.</value>
+            </list>
+         </property>
+    </bean>
+    <bean name="errorCommentFacade.getCommentsByMsg" class="mistic.util.ErrorResolverDefinition">
+         <property name="paramNumber" value="2" />
+         <property name="checkVariable" value="true" />
+         <property name="variableGetMethodName" value="toString" />
+         <property name="variableValue" value="ARCHIVE" />
+         <property name="errorMessages">
+            <list>
+                <value>There was a problem with the IAP service.</value>
+                <value>There was a problem with the Archive service.</value>
+            </list>
+         </property>
+    </bean>
+    <bean name="errorCommentFacade.getComment" class="mistic.util.ErrorResolverDefinition">
+         <property name="paramNumber" value="1" />
+         <property name="checkVariable" value="true" />
+         <property name="variableGetMethodName" value="toString" />
+         <property name="variableValue" value="ARCHIVE" />
+         <property name="errorMessages">
+            <list>
+                <value>There was a problem with the IAP service.</value>
+                <value>There was a problem with the Archive service.</value>
+            </list>
+         </property>
+    </bean>
+    <bean name="errorCommentFacade.saveComment" class="mistic.util.ErrorResolverDefinition">
+         <property name="paramNumber" value="0" />
+         <property name="checkVariable" value="false" />
+         <property name="errorMessages">
+            <list>
+                <value>There was a problem with the IAP service.</value>
+                <value>There was a problem with the Archive service.</value>
+            </list>
+         </property>
+         <property name="children">
+          <list>
+              <ref bean="errorCommentFacade.saveComment.commentDTO"/>
+          </list>
+         </property>
+    </bean>
+    <bean name="errorCommentFacade.saveComment.commentDTO" class="mistic.util.ErrorResolverDefinition">
+        <property name="paramNumber" value="0" />
+        <property name="checkVariable" value="true" />
+        <property name="childVariable" value="getType" />
+        <property name="variableGetMethodName" value="toString" />
+        <property name="variableValue" value="ARCHIVE" />
+     </bean>
+
+
+    <bean class="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator" autowire="byType">
+        <property name="beanNames">
+            <value>*FacadeBean, *DAO</value>
+        </property>
+        <property name="interceptorNames">
+            <list>
+                <value>debug</value>
+                <value>permissionInterceptor</value>
+                <value>auditInterceptor</value>
+                <value>performanceLogInterceptor</value>
+                <value>performance</value>
+                <value>errorResolver</value>
+            </list>
+        </property>
+    </bean>
+
+    <!-- Prototype instrumentation for server-push infrastructure -->
+    <bean name="clusterBroadcaster" class="mistic.reverseajax.ClusteredCacheBroadcaster">
+        <property name="httpSessionService" ref="httpSessionService"/>
+    </bean>
+
+    <bean name="webServiceFactory" class="mistic.util.WebServiceFactory" autowire="byType">
+        <property name="dumpSoapMessageContent" value="false"/>
+    </bean>
+
+    <bean name="keystorePropertiesConfigurationUtility" class="mistic.util.security.KeystorePropertyConfigurationUtility" autowire="byType" init-method="configureKeystoreProperties"/>
+
+    <!-- ====== please list bean and method names in alphabetical order ======-->
+   <!--
+      For more verbose debug output, use an AuditLogAjaxFilter.  This will
+      print information about the remote calls being executed, including
+      the object and method being called, the arguments, and the return value.
+        <dwr:remote javascript="MyBean">
+            <include method="doStuff">
+            <dwr:filter class="org.directwebremoting.filter.AuditLogAjaxFilter"/>
+        </dwr:remote>
+    -->
+
+    <!--  DAO CLASSES -->
+    <bean name="deliveryAddressDAO" class="mistic.dao.DeliveryAddressDAOImpl" autowire="byType" />
+    <bean name="distributionListDAO" class="mistic.dao.DistributionListDAOImpl" autowire="byType" />
+    <bean name="distributionListMemberDAO" class="mistic.dao.DistributionListMemberDAOImpl" autowire="byType" />
+    <bean name="documentDAO" class="mistic.dao.DocumentDAOImpl" autowire="byType" primary="true"/>
+    <bean name="documentAttachmentDAO" class="mistic.dao.DocumentAttachmentDAOImpl" autowire="byType" />
+    <bean name="draftAttachmentDAO" class="mistic.dao.DraftAttachmentDAOImpl" autowire="byType" />
+    <bean name="draftDAO" class="mistic.dao.DraftDAOImpl" autowire="byType" />
+    <bean name="labelledDAO" class="mistic.dao.LabelledDAOImpl" autowire="byType" />
+    <bean name="draftCommentDAO" class="mistic.dao.DraftCommentDAOImpl" autowire="byType" />
+    <bean name="archiveCommentDAO" class="mistic.dao.ArchiveCommentDAOImpl" autowire="byType" />
+    <bean name="draftHistoryDAO" class="mistic.dao.DraftHistoryDAOImpl" autowire="byType" >
+        <dwr:remote javascript="DraftHistoryDAO">
+            <dwr:include method="deleteHistorybyDraftId"/>
+            <dwr:include method="getHistory"/>
+        </dwr:remote>
+        <aop:scoped-proxy proxy-target-class="true" />
+    </bean>
+    <bean name="externalLinksDAO" class="mistic.dao.ExternalLinksDAOImpl" autowire="byType" />
+    <bean name="extendedCharacterRefDAO" class="mistic.dao.ExtendedCharacterRefDAOImpl" autowire="byType" />
+    <bean name="folderDAO" class="mistic.dao.FolderDAOImpl" autowire="byType" />
+    <bean name="folderShareDAO" class="mistic.dao.FolderShareDAOImpl" autowire="byType" />
+    <bean name="groupDAO" class="mistic.dao.GroupDAOImpl" autowire="byType" />
+    <bean name="lastReadMessageDAO" class="mistic.dao.LastReadMessageDAOImpl" autowire="byType" />
+    <bean name="logDAO" class="mistic.dao.LogDAOImpl" autowire="byType" />
+    <bean name="messageDAO" class="mistic.dao.MessageDAOImpl" autowire="byType"/>
+    <bean name="metaMessageDAO" class="mistic.dao.MetaMessageDAOImpl" autowire="byType" />
+    <bean name="msgDAO" class="mistic.dao.NoticeDAOImpl" autowire="byType" />
+    <bean name="personDAO" class="mistic.dao.PersonDAOImpl" autowire="byType" />
+    <bean name="profileDAO" class="mistic.dao.ProfileDAOImpl" autowire="byType" />
+    <bean name="profileShareDAO" class="mistic.dao.ProfileShareDAOImpl" autowire="byType" />
+    <bean name="SensitiveWordDAO" class="mistic.dao.SensitiveWordDAOImpl" autowire="byType" />
+    <bean name="releaseActionDAO" class="mistic.dao.ReleaseActionDAOImpl" autowire="byType" />
+    <bean name="releaseCandidateDAO" class="mistic.dao.ReleaseCandidateDAOImpl" autowire="byType" />
+    <bean name="roleDAO" class="mistic.dao.RoleDAOImpl" autowire="byType" />
+    <bean name="savedSearchDAO" class="mistic.dao.SavedSearchDAOImpl" autowire="byType"/>
+    <bean name="savedSearchShareDAO" class="mistic.dao.SavedSearchShareDAOImpl" autowire="byType"/>
+    <bean name="systemPreferenceDAO" class="mistic.dao.SystemPreferenceDAOImpl" autowire="byType">
+        <dwr:remote javascript="SystemPreferenceDAO">
+            <dwr:include method="get" />
+            <dwr:include method="retrieveAllSystemPreferences" />
+            <dwr:include method="retrieveApplicationSystemPreferences" />
+            <dwr:include method="retrieveConfigurableMessagePreferences" />
+            <dwr:include method="retrieveEmailValidationSystemPreferences" />
+            <dwr:include method="retrieveMessageValidationSystemPreferences" />
+            <dwr:include method="retrieveReleaseValidationSystemPreferences" />
+            <dwr:include method="retrieveMultiple" />
+            <dwr:include method="retrieveSessionSystemPreferences" />
+            <dwr:include method="retrieveSystemPreferencesByType"/>
+            <dwr:include method="set" />
+            <dwr:include method="testWebService" />
+            <dwr:include method="testUrl" />
+            <dwr:include method="updateBanner" />
+            <dwr:include method="updateSystemPreferences" />
+        </dwr:remote>
+        <aop:scoped-proxy proxy-target-class="true" />
+    </bean>
+    <bean name="releaseAuthorityDAO" class="mistic.dao.ReleaseAuthorityDAOImpl" autowire="byType">
+        <dwr:remote javascript="ReleaseAuthorityDAO">
+            <dwr:include method="create" />
+            <dwr:include method="find" />
+            <dwr:include method="findByPerson" />
+            <dwr:include method="remove" />
+        </dwr:remote>
+    </bean>
+    <bean name="testMessageDAO" class="mistic.dao.TestMessageDAOImpl" autowire="byType"/>
+    <bean name="validValueDAO" class="mistic.dao.ValidValueDAOImpl" autowire="byType">
+        <dwr:remote javascript="ValidValueDAO">
+            <dwr:include method="findAll"/>
+            <dwr:include method="getAllAttachmentTypes"/>
+            <dwr:include method="getAllEmailAttachmentTypes"/>
+            <dwr:include method="getAllMessageAttachmentTypes"/>
+            <dwr:include method="getAllowedEmailAttachmentTypes"/>
+            <dwr:include method="getAllowedMessageAttachmentTypes"/>
+            <dwr:include method="getAvailableEmailAttachmentTypes"/>
+            <dwr:include method="getAvailableMessageAttachmentTypes"/>
+            <dwr:include method="isEmailAttachmentAllowed"/>
+            <dwr:include method="isMessageAttachmentAllowed"/>
+            <dwr:include method="setAllAttachmentTypes"/>
+            <dwr:include method="setEmailAttachmentTypes"/>
+            <dwr:include method="setMessageAttachmentTypes"/>
+        </dwr:remote>
+        <aop:scoped-proxy proxy-target-class="true" />
+    </bean>
+
+    <bean name="attachmentFacadeBean" class="mistic.facade.AttachmentFacadeImpl" autowire="byType">
+        <dwr:remote javascript="AttachmentFacade">
+            <dwr:include method="deleteDraftAttachment"/>
+            <dwr:include method="downloadAttachment"/>
+            <dwr:include method="downloadDraftAttachmentByName"/>
+            <dwr:include method="getDraftAttachments"/>
+            <dwr:include method="retrieveAndParkAttachmentListFromArchive"/>
+            <dwr:include method="parkAttachmentDTOLists"/>
+            <dwr:include method="uploadDraftAttachment"/>
+        </dwr:remote>
+    </bean>
+    
+    <bean name="commentFacadeBean" class="mistic.facade.CommentFacadeImpl" autowire="byType">
+        <dwr:remote javascript="CommentFacade">
+            <dwr:include method="deleteComment"/>
+            <dwr:include method="deleteCommentsByDraftId" />
+            <dwr:include method="getComment"/>
+            <dwr:include method="getCommentsByMsg"/>
+            <dwr:include method="saveComment"/>
+        </dwr:remote>
+        <aop:scoped-proxy proxy-target-class="true" />
+    </bean>
+
+    <bean name="contactFacadeBean" class="mistic.facade.ContactFacadeImpl" autowire="byType">
+        <dwr:remote javascript="ContactFacade">
+            <dwr:include method="createContact" />
+            <dwr:include method="deleteContacts" />
+            <dwr:include method="searchContacts" />
+            <dwr:include method="updateContact" />
+        </dwr:remote>
+        <aop:scoped-proxy proxy-target-class="true" />
+    </bean>
+
+    <bean name="deliveryAddressFacadeBean" class="mistic.facade.DeliveryAddressFacadeImpl" autowire="byType">
+        <dwr:remote javascript="DeliveryAddressFacade">
+            <dwr:include method="addOrRemoveAddressFromFavorites"/>
+            <dwr:include method="find"/>
+            <dwr:include method="getAllAddresses"/>
+            <dwr:include method="getDsscsAddresses"/>
+            <dwr:include method="getFavoriteAddresses"/>
+            <dwr:include method="getGenserAddresses"/>
+            <dwr:include method="search"/>
+            <dwr:include method="updateAddressList"/>
+        </dwr:remote>
+        <aop:scoped-proxy proxy-target-class="true" />
+        <property name="masdDataSource" ref="misticDS"/>
+    </bean>
+
+    <bean name="distributionListFacadeBean" class="mistic.facade.DistributionListFacadeImpl" autowire="byType">
+        <dwr:remote javascript="DistributionListFacade">
+            <dwr:include method="addDeliveryAddressesToList"/>
+            <dwr:include method="createDistributionList"/>
+            <dwr:include method="deleteDistributionList"/>
+            <dwr:include method="find"/>
+            <dwr:include method="getAllDistributionLists"/>
+            <dwr:include method="getDeliveryAddressesForList"/>
+            <dwr:include method="getDistinctDeliveryAddressesForDistributionListsByIds"/>
+            <dwr:include method="getDistributionListsOwnedByCaller"/>
+            <dwr:include method="getDistributionListsOwnedByCallerByAddressType"/>
+            <dwr:include method="removeDeliveryAddressesFromList"/>
+            <dwr:include method="renameDistributionList"/>
+            <dwr:include method="search"/>
+            <dwr:include method="searchDistributionListsOwnedByCaller"/>
+            <dwr:include method="updateDeliveryAddressesInList"/>
+        </dwr:remote>
+        <aop:scoped-proxy proxy-target-class="true" />
+    </bean>
+
+    <bean name="ExternalLinksFacadeBean" class="mistic.facade.ExternalLinksFacadeImpl" autowire="byType">
+        <dwr:remote javascript="ExternalLinksFacade">
+            <dwr:include method="get"/>
+            <dwr:include method="set"/>
+        </dwr:remote>
+        <aop:scoped-proxy proxy-target-class="true" />
+    </bean>
+
+    <bean name="folderFacadeBean" class="mistic.facade.FolderFacadeImpl" autowire="byType">
+        <dwr:remote javascript="FolderFacade">
+            <dwr:include method="checkHighPrecedence"/>
+            <dwr:include method="copyFolder" />
+            <dwr:include method="createFolder" />
+            <dwr:include method="deleteFolder" />
+            <dwr:include method="deleteShare" />
+            <dwr:include method="emptyFolder" />
+            <dwr:include method="getChildFolders" />
+            <dwr:include method="getFolder"/>
+            <dwr:include method="getFolderAsIndex" />
+            <dwr:include method="getHighPrecedenceFolder" />
+            <dwr:include method="getHighPrecedenceFolderForPerson" />
+            <dwr:include method="moveFolder" />
+            <dwr:include method="renameFolder" />
+            <dwr:include method="shareFolder" />
+            <dwr:include method="markFolderUnread" />
+            <dwr:include method="markFolderRead" />
+        </dwr:remote>
+        <aop:scoped-proxy proxy-target-class="true" />
+    </bean>
+
+    <bean name="groupFacadeBean" class="mistic.facade.GroupFacadeImpl" autowire="byType">
+        <dwr:remote javascript="GroupFacade">
+            <dwr:include method="addMembersToGroup" />
+            <dwr:include method="assignDefaultRelease" />
+            <dwr:include method="createGroup" />
+            <dwr:include method="deleteGroups" />
+            <dwr:include method="getAllGroupsOwnedByCaller" />
+            <dwr:include method="getDefaultReleaseGroups" />
+            <dwr:include method="getDefaultReleaseGroupsUsersSurrogates" />
+            <dwr:include method="getMembersOfGroup" />
+            <dwr:include method="getMembersOfGroupAndSubGroups"/>
+            <dwr:include method="getNonReleaseGroups"/>
+            <dwr:include method="removeMembersFromGroup" />
+            <dwr:include method="renameGroup" />
+            <dwr:include method="searchGroupsOwnedByCaller" />
+            <dwr:include method="updateGroupMemberList" />
+        </dwr:remote>
+        <aop:scoped-proxy proxy-target-class="true" />
+    </bean>
+
+
+    <bean name="logFacadeBean" class="mistic.facade.LogFacadeImpl" autowire="byType" >
+        <dwr:remote javascript="LogFacade">
+            <dwr:include method="auditLog" />
+            <dwr:include method="eventLog" />
+            <dwr:include method="getAuditLogViewerSettings" />
+            <dwr:include method="getEventLogViewerSettings" />
+            <dwr:include method="getEventLogViewerSettingsDTO" />
+            <dwr:include method="getLogViewerSettings" />
+            <dwr:include method="getUsersAuditedLastThirtyMinutes" />
+            <dwr:include method="messageTransmitLog" />
+            <dwr:include method="retrieveLogProperties" />
+            <dwr:include method="storeAuditLogViewerSettings" />
+            <dwr:include method="storeEventLogViewerSettings" />
+            <dwr:include method="storeEventLogViewerSettingsDTO" />
+            <dwr:include method="storeLogViewerSettings" />
+            <dwr:include method="updateLogProperties" />
+        </dwr:remote>
+        <aop:scoped-proxy proxy-target-class="true" />
+    </bean>
+
+    <bean name="messageFacadeBean" class="mistic.facade.MessageFacadeImpl" autowire="byType">
+        <dwr:remote javascript="MessageFacade">
+            <dwr:include method="addMessagesToFolder" />
+            <dwr:include method="copyAllMessages" />
+            <dwr:include method="copyMessage"/>
+            <dwr:include method="deleteCommentsAndHistoryForDraft" />
+            <dwr:include method="deleteHighPrecedenceMessages"/>
+            <dwr:include method="deleteMessages" />
+            <dwr:include method="edit"/>
+            <dwr:include method="editDefault"/>
+            <dwr:include method="findLastRead" />
+            <dwr:include method="forward" />
+            <dwr:include method="getDraftMetaDataByFolderId" />
+            <dwr:include method="getMessage"/>
+            <dwr:include method="getMessageList"/>
+            <dwr:include method="getMessageWithoutFolder"/>
+            <dwr:include method="getMessageWithParkedAttachments"/>
+            <dwr:include method="getZoneList"/>
+            <dwr:include method="markMessageRead" />
+            <dwr:include method="markMessageUnread" />
+            <dwr:include method="markMessageListRead" />
+            <dwr:include method="markMessageListUnread" />
+            <dwr:include method="moveHighPrecedenceMessages"/>
+            <dwr:include method="moveMessage"/>
+            <dwr:include method="newMessage"/>
+            <dwr:include method="newFromDefaultMessage"/>
+            <dwr:include method="newFromDefaultEmail"/>
+            <dwr:include method="newFromExisting"/>
+            <dwr:include method="parkMessageDTO"/>
+            <dwr:include method="recover"/>
+            <dwr:include method="renameMessage"/>
+            <dwr:include method="richToPlainBodyForEdit"/>
+            <dwr:include method="richToPlainSubjectForEdit"/>
+            <dwr:include method="richToPlainForDisplay"/>            
+            <dwr:include method="saveMessage" />
+            <dwr:include method="sendBroadcastNotice"/>
+            <dwr:include method="sendEmail"/>
+            <dwr:include method="sendPurgeRequest" />
+            <dwr:include method="setNoticeUnread" />
+            <dwr:include method="setNoticeRead" />
+            <dwr:include method="setNoticeListUnread" />
+            <dwr:include method="setNoticeListRead" />
+            <dwr:include method="setNoticeFolderUnread" />
+            <dwr:include method="setNoticeFolderRead" />
+            <dwr:include method="subscribe" />
+            <dwr:include method="unsubscribe" />
+<!--            <dwr:include method="purgeNotices"/>-->
+        </dwr:remote>
+        <aop:scoped-proxy proxy-target-class="true" />
+    </bean>
+
+    <bean name="noticeFacadeBean" class="mistic.facade.NoticeFacadeImpl" autowire="byType"/>
+
+    <bean name="personFacadeBean" class="mistic.facade.PersonFacadeImpl" autowire="byType">
+        <dwr:remote javascript="PersonFacade">
+            <dwr:include method="disableUser" />
+            <dwr:include method="disableUsers" />
+            <dwr:include method="enableUser" />
+            <dwr:include method="enableUsers" />
+            <dwr:include method="findHighPriorityAccessList" />
+            <dwr:include method="getCallerPreferences" />
+            <dwr:include method="getCurrentUser" />
+            <dwr:include method="getUserRefreshInfo" />
+            <dwr:include method="logout" />
+            <dwr:include method="searchActivatedUsers" />
+            <dwr:include method="searchDeactivatedUsers" />
+            <dwr:include method="searchReleasers" />
+            <dwr:include method="searchUsers" />
+            <dwr:include method="searchUsersAuditedLastThirtyMinutes" />
+            <dwr:include method="searchUsersWhoManageSurrogates" />
+            <dwr:include method="searchUsersWhoManageRoles" />
+            <dwr:include method="updateCallerPreferences" />
+            <dwr:include method="updateHighPrecedenceList" />
+            <dwr:include method="updateUser" />
+        </dwr:remote>
+        <aop:scoped-proxy proxy-target-class="true" />
+    </bean>
+
+    <bean name="releaseCoordinationFacadeBean" class="mistic.facade.ReleaseCoordinationFacadeImpl" autowire="byType">
+        <dwr:remote javascript="ReleaseCoordinationFacade">
+            <dwr:include method="addRemoveUsers" />
+            <dwr:include method="canPersonReleaseForAddress" />
+            <dwr:include method="canPersonReleaseForAddressAndPrecedence" />
+            <dwr:include method="deleteReleaseAction"/>
+            <dwr:include method="deleteReleaseActions"/>
+            <dwr:include method="forwardForReview"/>
+            <dwr:include method="getCurrentParticipants"/>
+            <dwr:include method="getMessageLockedBy"/>
+            <dwr:include method="getReleaseAuthoritiesForPerson"/>
+            <dwr:include method="getRequiredActionCountForPerson" />
+            <dwr:include method="isActionRequired"/>
+            <dwr:include method="isMessageLockedByUser"/>
+            <dwr:include method="lockMessage"/>
+            <dwr:include method="recallReleaseCandidate" />
+            <dwr:include method="rejectReleaseCandidate" />
+            <dwr:include method="release" />
+            <dwr:include method="releaseDraft" />
+            <dwr:include method="setReleaseAuthoritiesForPerson"/>
+            <dwr:include method="stealLock"/>
+            <dwr:include method="submitForRelease" />
+            <dwr:include method="unlockMessage"/>
+        </dwr:remote>
+    </bean>
+
+    <bean name="roleFacadeBean" class="mistic.facade.RoleFacadeImpl" autowire="byType">
+        <dwr:remote javascript="RoleFacade">
+            <dwr:include method="addRolesToUser" />
+            <dwr:include method="addUsersToRole" />
+            <dwr:include method="assignManagersToRole" />
+            <dwr:include method="assignPermissionsToRole" />
+            <dwr:include method="assignPermissionsAndManagersToRole" />
+            <dwr:include method="deleteRole" />
+            <dwr:include method="getAllPermissions" />
+            <dwr:include method="getAllRolesCallerCanAssign" />
+            <dwr:include method="getAllRolesCallerCanUseOrAssign" />
+            <dwr:include method="getAssignedRolesCallerCanAssign" />
+            <dwr:include method="getAvailableRolesCallerCanAssign" />
+            <dwr:include method="getCallerPermissions" />
+            <dwr:include method="getCallerRoles" />
+            <dwr:include method="getManagersOfRole" />
+            <dwr:include method="getPermissionsOfRole" />
+            <dwr:include method="getRole" />
+            <dwr:include method="getRoleDTO" />
+            <dwr:include method="getRoleProperties" />
+            <dwr:include method="getRolePropertiesAndParentPermissions" />
+            <dwr:include method="getRoleTree" />
+            <dwr:include method="getRolesManagedByOrAssignedToCaller" />
+            <dwr:include method="getUsersOfRole" />
+            <dwr:include method="isCallerUsingMasterRole" />
+            <dwr:include method="isInheritablePermission" />
+            <dwr:include method="isRoleNameAvailable" />
+            <dwr:include method="removeRolesFromUser" />
+            <dwr:include method="removeUsersFromRole" />
+            <dwr:include method="saveRole" />
+            <dwr:include method="userHasPermission" />
+            <dwr:include method="useRole" />
+            <dwr:include method="reset" />
+        </dwr:remote>
+        <aop:scoped-proxy proxy-target-class="true" />
+    </bean>
+
+    <bean name="securityMarkingFacadeBean" class="mistic.facade.SecurityMarkingFacadeImpl" autowire="byType">
+        <dwr:remote javascript="SecurityMarkingFacade">
+            <dwr:include method="cmtToSecurityMarking"/>
+            <dwr:include method="getClassInfo"/>
+            <dwr:include method="getFavoriteXML"/>
+            <dwr:include method="getClassInfo"/>
+            <dwr:include method="retrievePortionMarking"/>
+            <dwr:include method="retrievePortionMarkings"/>
+            <dwr:include method="rollUp"/>
+            <dwr:include method="rollUpToBanner"/>
+            <dwr:include method="setFavoriteXML"/>
+        </dwr:remote>
+        <aop:scoped-proxy proxy-target-class="true" />
+    </bean>
+    
+    <bean name="savedSearchFacadeBean" class="mistic.facade.SavedSearchFacadeImpl" autowire="byType">
+        <dwr:remote javascript="SavedSearchFacade">
+            <dwr:include method="saveSearchResultsToFolder"/>
+        </dwr:remote>
+        <aop:scoped-proxy proxy-target-class="true" />
+    </bean>
+
+    <bean name="searchFacadeBean" class="mistic.facade.SearchFacadeImpl" autowire="byType">
+        <dwr:remote javascript="SearchFacade">
+            <dwr:include method="activateProfile"/>
+            <dwr:include method="addFolderToSearchDefinition"/>
+            <dwr:include method="createSearchDefinition"/>
+            <dwr:include method="deactivateProfile"/>
+            <dwr:include method="deleteSearchDefinition"/>
+            <dwr:include method="deleteShare"/>
+            <dwr:include method="getDocumentSources"/>
+            <dwr:include method="getSearchDefinition"/>
+            <dwr:include method="getSearchDefinitionAsIndex"/>
+            <dwr:include method="parkSearchDefinitionDTO"/>
+            <dwr:include method="removeFolderFromSearchDefinition"/>
+            <dwr:include method="renameSearchDefinition"/>
+            <dwr:include method="save"/>
+            <dwr:include method="saveSearchResultsToFolder"/>
+            <dwr:include method="search"/>
+            <dwr:include method="searchWithinFolder"/>
+            <dwr:include method="shareDefinition"/>
+            <dwr:include method="updateHighPrecedenceDefinition"/>
+            <dwr:include method="updateSearchDefinition"/>
+        </dwr:remote>
+        <aop:scoped-proxy proxy-target-class="true" />
+    </bean>
+
+    <bean name="sensitiveWordFacadeBean" class="mistic.facade.SensitiveWordFacadeImpl" autowire="byType">
+        <dwr:remote javascript="SensitiveWordFacade">
+            <dwr:include method="deleteWordLists" />
+            <dwr:include method="getAllWordLists" />
+            <dwr:include method="getAvailableLists" />
+            <dwr:include method="getPolicyLists" />
+            <dwr:include method="getPreferredLists" />
+            <dwr:include method="markupText" />
+            <dwr:include method="renameWordList" />
+            <dwr:include method="retrieveWordList" />
+            <dwr:include method="saveUserLists" />
+            <dwr:include method="saveWordList"/>
+            <dwr:include method="unMarkupText" />
+            <dwr:include method="uploadWordList" />
+        </dwr:remote>
+        <aop:scoped-proxy proxy-target-class="true" />
+    </bean>
+
+    <bean name="surrogateFacadeBean" class="mistic.facade.SurrogateFacadeImpl" autowire="byType">
+        <dwr:remote javascript="SurrogateFacade">
+            <dwr:include method="assignSurrogatesToUser" />
+            <dwr:include method="assignUsersToManageSurrogate" />
+            <dwr:include method="assignUsersToSurrogate" />
+            <dwr:include method="createSurrogate" />
+            <dwr:include method="findAllSurrogates" />
+            <dwr:include method="findAssignedSurrogatesManagedByCurrentUser" />
+            <dwr:include method="findAvailableSurrogatesManagedByCurrentUser" />
+            <dwr:include method="findManagersOfSurrogate" />
+            <dwr:include method="findSurrogatesAvailableForUser" />
+            <dwr:include method="findSurrogatesManagedByCurrentUser" />
+            <dwr:include method="getSurrogates" />
+            <dwr:include method="getUsersOfSurrogate" />
+            <dwr:include method="isSurrogateNameAvailable" />
+            <dwr:include method="removeSurrogatesFromUser" />
+            <dwr:include method="removeUsersFromManagingSurrogate" />
+            <dwr:include method="removeUsersFromSurrogate" />
+            <dwr:include method="saveSurrogate" />
+            <dwr:include method="searchSurrogates" />
+            <dwr:include method="updateSurrogate" />
+            <dwr:include method="useSurrogate" />
+        </dwr:remote>
+        <aop:scoped-proxy proxy-target-class="true" />
+    </bean>
+
+    <bean name="TestMessageFacadeBean" class="mistic.facade.TestMessageFacadeImpl" autowire="byType">
+        <dwr:remote javascript="TestMessageFacade">
+            <dwr:include method="getTestMessageCount" />
+            <dwr:include method="sendTestMessages" />
+        </dwr:remote>
+        <aop:scoped-proxy proxy-target-class="true" />
+    </bean>
+
+    <bean name="validationFacadeBean" class="mistic.facade.ValidationFacadeImpl" autowire="byType">
+        <dwr:remote javascript="ValidationFacadeBean">
+            <dwr:include method="validateDraftMsg" />
+            <dwr:include method="validateDraftMsgById" />
+        </dwr:remote>
+        <aop:scoped-proxy proxy-target-class="true" />
+    </bean>
+
+    <bean name="AttachmentTypesFacadeBean" class="mistic.facade.AttachmentTypesFacadeImpl" autowire="byType">
+        <dwr:remote javascript="AttachmentTypesFacade">
+            <dwr:include method="get" />
+            <dwr:include method="setAll" />
+            <dwr:include method="setEmailTypes" />
+            <dwr:include method="setMessageTypes" />
+        </dwr:remote>
+        <aop:scoped-proxy proxy-target-class="true" />
+    </bean>
+
+    <bean id="diasClient" class="mistic.security.DiasClientImpl" autowire="byType"/>
+    
+    <bean id="searchFactory" class="mistic.search.SearchFactory" autowire="byType" />  
+    <bean id="enterpriseSearch" class="mistic.search.EnterpriseSearch" autowire="byType" />
+    <bean id="searchUtil" class="mistic.util.SearchUtil" autowire="byType" />
+ 
+    <bean id="profileFactory" class="mistic.profile.ProfileFactory" autowire="byType" />  
+    <bean id="highLevelProfileProduction" class="mistic.profile.HighLevelProfileProduction" autowire="byType" />
+    <bean id="surrogateProfileProduction" class="mistic.profile.SurrogateProfileProduction" autowire="byType" />
+    <bean id="userProfileProduction" class="mistic.profile.UserProfileProduction" autowire="byType" />
+    <bean name="virusScannerClient" class="mistic.scanner.ClamVirusScannerClient" autowire="byType"/>
+
+    <bean name="deliveryAddressUpdateJobUtils" class="mistic.job.DeliveryAddressUpdateJobUtils" autowire="byType">
+        <property name="schedulerFactory" ref="schedulerFactory" />
+    </bean>
+
+    <bean name="dbmsScheduledJobUtils" class="mistic.job.DbmsScheduledJobUtils" autowire="byType" />
+
+
+    <bean name="deliveryAddressUpdateJob" class="org.springframework.scheduling.quartz.JobDetailBean" >
+        <property name="jobClass" value="mistic.job.DeliveryAddressUpdateJob"/>
+    </bean>
+
+    <bean id="deliveryAddressUpdateTrigger" class="org.springframework.scheduling.quartz.CronTriggerBean">
+        <property name="jobDetail" ref="deliveryAddressUpdateJob"/>
+        <!-- Set to run Daily at 2:30 am as default value -->
+        <property name="cronExpression" value="0 30 2 * * ?"/>
+    </bean>
+    
+    <bean name="highPrecedenceQueueUpdateJob" class="org.springframework.scheduling.quartz.JobDetailBean" >
+        <property name="jobClass" value="mistic.job.HighPrecedenceQueueUpdateJob"/>
+    </bean>
+
+    <bean id="highPrecedenceQueueUpdateTrigger" class="org.springframework.scheduling.quartz.CronTriggerBean">
+        <property name="jobDetail" ref="highPrecedenceQueueUpdateJob"/>
+        <!-- Set to Run Every 30 Seconds -->
+        <property name="cronExpression" value="0/30 * * * * ?"/>
+        <property name="misfireInstructionName" value="MISFIRE_INSTRUCTION_DO_NOTHING"/>
+    </bean>
+
+    <bean id="schedulerFactory" class="org.springframework.scheduling.quartz.SchedulerFactoryBean" autowire="byName">
+        <property name="jobFactory">
+            <bean class="org.springframework.scheduling.quartz.SpringBeanJobFactory"/>
+          </property>
+          <property name="applicationContextSchedulerContextKey" value="applicationContext"/>
+        <property name="dataSource" ref="misticDS" />
+        <property name="triggers">
+            <list>
+                <ref bean="deliveryAddressUpdateTrigger"/>
+                <ref bean="highPrecedenceQueueUpdateTrigger"/>
+            </list>
+        </property>
+        <property name="quartzProperties">
+            <props>
+                <prop key="org.quartz.scheduler.instanceName">MisticQuartzScheduler</prop>
+                <prop key="org.quartz.scheduler.instanceId">AUTO</prop>
+                <prop key="org.quartz.jobStore.class">org.quartz.impl.jdbcjobstore.JobStoreTX</prop>
+                <prop key="org.quartz.jobStore.isClustered">true</prop>
+                <prop key="org.quartz.jobStore.clusterCheckinInterval">60000</prop>
+                <prop key="org.quartz.jobStore.driverDelegateClass">org.quartz.impl.jdbcjobstore.oracle.OracleDelegate</prop>
+                <prop key="org.quartz.jobStore.tablePrefix">QRTZ_</prop>
+                <prop key="org.quartz.threadPool.threadCount">2</prop>
+                <prop key="org.quartz.threadPool.threadPriority">5</prop>
+                <prop key="org.quartz.threadPool.class">org.quartz.simpl.SimpleThreadPool</prop>
+                <prop key="org.quartz.threadPool.threadsInheritContextClassLoaderOfInitializingThread">true</prop>
+            </props>
+        </property>
+    </bean>
+
+    <bean name="logPropertiesHolder" class="mistic.logging.LogPropertiesHolder">
+        <constructor-arg>
+            <bean class="mistic.util.SystemPreferencePropertiesCreator" factory-method="getLogProperties"/>
+        </constructor-arg>
+        <constructor-arg ref="misticDS" />
+    </bean>
+
+    <bean name="archiveMessageClient" class="mistic.archive.ArchiveMessageServiceClient" autowire="byType" />
+
+    <bean name="EmailProfileNotificationHolder" class="mistic.profile.EmailProfileNotificationHolder">
+        <constructor-arg ref="archiveMessageClient" />
+        <constructor-arg ref="profileDAO" />
+    </bean>
+
+    <bean name="extendedCharacterSetHolder" class="mistic.util.ExtendedCharacterSetHolder"></bean>
+    <bean name="systemBannerHolder" class="mistic.util.SystemBannerHolder"></bean>
+    <bean name="releaseAuthorityUtil" class="mistic.util.ReleaseAuthorityUtil" autowire="byType" />
+
+    <bean name="commentSearchDAO" class="mistic.dao.CommentSearchDAOImpl" autowire="byType" />
+    <bean name="commentSearchFacadeBean" class="mistic.facade.CommentSearchFacadeImpl" autowire="byType" >
+        <dwr:remote javascript="CommentSearchFacade">
+            <dwr:include method="saveComment" />
+            <dwr:include method="deleteComment" />
+            <dwr:include method="deleteCommentsByMessage" />
+            <dwr:include method="search" />
+        </dwr:remote>
+    </bean>
+
+    <bean name="solrServer" class="org.apache.solr.client.solrj.impl.CommonsHttpSolrServer" autowire="byType" >
+        <constructor-arg value="${commentIndexUrl}"/>
+    </bean>
+
+     <!-- ExtDirectSpring -->
+    <context:component-scan base-package="ch.ralscha.extdirectspring" />
+
+    <!-- Configures the @Controller programming model -->
+    <mvc:annotation-driven />
+
+    <!-- Configure the multipart resolver -->
+    <bean id="multipartResolver" class="mistic.spring.CommonsMultipartResolver">
+        <!-- one of the properties available; the maximum file size in bytes -->
+        <property name="maxUploadSize" value="5368709120"/>
+    </bean>
+    
+    <!-- Declare explicitly, or use <context:annotation-config/> -->
+    <bean id="uploadController" class="mistic.servlet.UploadController"/>
+
+</beans>

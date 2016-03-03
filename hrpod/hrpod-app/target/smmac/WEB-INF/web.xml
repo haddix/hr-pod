@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app metadata-complete="true" version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <display-name>SMMAC</display-name>    
+    <servlet>
+        <servlet-name>EzSecurityServlet</servlet-name>
+        <servlet-class>smmac.web.EzSecurityServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EzSecurityServlet</servlet-name>
+        <url-pattern>/security</url-pattern>
+    </servlet-mapping>
+    <!--remove to run locally-->
+    <listener>
+        <listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>
+    </listener>
+</web-app>
