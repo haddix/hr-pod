@@ -7,16 +7,12 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 import opennlp.tools.chunker.ChunkerME;
 import opennlp.tools.chunker.ChunkerModel;
-import opennlp.tools.ngram.NGramModel;
 import opennlp.tools.postag.POSModel;
 import opennlp.tools.postag.POSTaggerME;
-import opennlp.tools.tokenize.Tokenizer;
 import opennlp.tools.tokenize.TokenizerME;
 import opennlp.tools.tokenize.TokenizerModel;
-import opennlp.tools.util.Sequence;
 import opennlp.tools.util.Span;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.log4j.Logger;
@@ -25,6 +21,7 @@ import org.tartarus.snowball.ext.PorterStemmer;
 public class Opennlp {
 
     final static Logger logger = Logger.getLogger(Opennlp.class);
+    private static String modelPath = "src/models/";
 
     public static void main(String[] args) throws FileNotFoundException, IOException {
 
@@ -53,12 +50,33 @@ public class Opennlp {
         String additionalInfoTxt = resume.substring(resume.indexOf(additionalInfo) + (additionalInfo.length()), resume.length());
 
         try {
+             
             
-            String words[] = tokenize(workExperinceTxt);//tokenize into words and phrases
+            POSModel pm = new POSModel(new FileInputStream(new File(modelPath + "en-pos-maxent.bin")));
+            POSTaggerME posme = new POSTaggerME(pm);
+                        
+            String words[] = tokenize(workExperinceTxt);//tokenize into words and phrases                        
             
             ArrayList<String> wordList = new StopWordRemoval().removeStopWords(words); //remove stop words
             
             wordList = stemmer(wordList);//stem words
+            
+            String[] posTags = posme.tag(wordList.toArray(new String[0]));
+            
+            int t = 0;
+            for(int w = 0; w < wordList.size(); w++){
+                String posTag = posTags[t];
+                String word = wordList.get(w);
+                //logger.info("WORDS: " + word + " : " + posTag);
+                if(posTag.equals("CD")){
+                    wordList.remove(w);
+                    w--;
+                }
+                else{
+                    logger.info("WORDS: " + wordList.get(w) + " : " + posTags[t]);
+                }
+                t++;
+            }
 
             logger.info("DONE");
 
@@ -72,7 +90,7 @@ public class Opennlp {
     public static ArrayList<String> stemmer(ArrayList<String> wordList) {
         PorterStemmer stemmer = new PorterStemmer();
         for(int wl = 0; wl < wordList.size(); wl++){
-            logger.info("OLD WORD: " + wordList.get(wl));
+            //logger.info("OLD WORD: " + wordList.get(wl));
             ArrayList<String> subWordList = new ArrayList();
             subWordList.addAll(Arrays.asList(wordList.get(wl).split(" ")));
             for(int swl = 0; swl < subWordList.size(); swl++){
@@ -83,7 +101,7 @@ public class Opennlp {
                 subWordList.set(swl, stemmedWord);
             }            
             wordList.set(wl, StringUtils.join(subWordList, " "));
-            logger.info("NEW WORD: " + wordList.get(wl));
+            //logger.info("NEW WORD: " + wordList.get(wl));
         }
         
         return wordList;
@@ -95,7 +113,6 @@ public class Opennlp {
         String[] chunkStrings = null;
         
         try {
-            String modelPath = "src/models/";
             TokenizerModel tm = new TokenizerModel(new FileInputStream(new File(modelPath + "en-token.bin")));
             TokenizerME wordBreaker = new TokenizerME(tm);
             POSModel pm = new POSModel(new FileInputStream(new File(modelPath + "en-pos-maxent.bin")));

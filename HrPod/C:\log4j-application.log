@@ -1,0 +1,12 @@
+2016-03-07 12:02:43 ERROR PDFTools:54 - IO ERROR
+java.io.FileNotFoundException: src/data/resume1.pdf (No such file or directory)
+	at java.io.RandomAccessFile.open(Native Method)
+	at java.io.RandomAccessFile.<init>(RandomAccessFile.java:236)
+	at org.apache.pdfbox.io.RandomAccessFile.<init>(RandomAccessFile.java:43)
+	at hrpod.tools.PDFTools.getStringFromPDF(PDFTools.java:39)
+	at hrpod.businesslogic.IngestDataBL.getPDFs(IngestDataBL.java:30)
+	at hrpod.businesslogic.IngestDataBL.doIngets(IngestDataBL.java:20)
+	at hrpod.Hrpod.main(Hrpod.java:25)
+2016-03-07 12:03:35 DEBUG ScratchFileBuffer:516 - ScratchFileBuffer not closed!
+2016-03-07 12:03:37 INFO  NLPTools:49 - DONE
+2016-03-07 12:03:37 INFO  Hrpod:31 - DONE

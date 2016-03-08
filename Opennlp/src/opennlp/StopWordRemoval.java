@@ -153,7 +153,7 @@ public class StopWordRemoval {
                 for (int sw = 0; sw < stopWords.length; sw++) {                
                     String stopWord = stopWords[sw];
                     if (stopWords[sw].toLowerCase().contains(subWordList.get(swl).toLowerCase())) {
-                        logger.info("REMOVE WORD: " + stopWords[sw]);
+                        //logger.info("REMOVE WORD: " + stopWords[sw]);
                         subWordList.remove(swl);
                         swl--;
                         break;

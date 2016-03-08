@@ -19122,3 +19122,2172 @@ java.lang.IndexOutOfBoundsException: Index: 4, Size: 4
 2016-03-03 13:39:55 INFO  Opennlp:75 - OLD WORD: Single Scope Background Investigation
 2016-03-03 13:39:55 INFO  Opennlp:86 - NEW WORD: Singl Scope Background Investig
 2016-03-03 13:39:55 INFO  Opennlp:63 - DONE
+2016-03-03 15:32:50 DEBUG ScratchFileBuffer:516 - ScratchFileBuffer not closed!
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: save
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: alone
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: present
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: per
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: year
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: per
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: week
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: definitely
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: this
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: his
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: a
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: )
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: related
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: using
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: according
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: another
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: include
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: (
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: .
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: provided
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: include
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: .
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: insofar
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: from
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: onto
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: with
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: many
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: from
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: designed
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: another
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: tested
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: alone
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: a
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: .
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: (
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: )
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: okay
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: this
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: per
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: week
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: this
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: his
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: a
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: )
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: related
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: another
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: insofar
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: across
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: another
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: (
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: insofar
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: )
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: include
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: ,
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: .
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: insofar
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: aside
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: .
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: another
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: alone
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: per
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: week
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: this
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: his
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: a
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: )
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: related
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: provided
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: insofar
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: another
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: (
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: )
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: across
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: )
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: another
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: (
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: viz
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: .
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: their
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: using
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: alone
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: per
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: week
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: definitely
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: this
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: his
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: a
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: )
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: related
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: using
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: provided
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: include
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: .
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: insofar
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: from
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: onto
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: with
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: many
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: from
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: designed
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: another
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: tested
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: alone
+2016-03-03 15:32:51 INFO  Opennlp:156 - REMOVE WORD: a
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Defense Intelligence Agency 901 Blvd Offutt AFB
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Defens Intellig Agenci 901 Blvd Offutt AFB
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: 68113 United States 10/2006
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: 68113 Unite State 10/2006
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Salary
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Salari
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: 85,000.00 USD Hours
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: 85,000.00 USD Hour
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: 40 Series
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: 40 Seri
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: 2210 Pay Plan
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: 2210 Pai Plan
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: GG Grade
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: GG Grade
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: 13
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: 13
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Specialist
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Specialist
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: federal job Duties
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: feder job Duti
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Accomplishments
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Accomplish
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Skills
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Skill
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Lead developer analyst
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Lead develop analyst
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: web based applications
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: web base applic
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: JAVA
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: JAVA
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: ASP .NET technologies
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: ASP .NET technologi
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Technical lead
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Technic lead
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: agency effort
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: agenc effort
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: migrate
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: migrat
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: applications
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: applic
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: cloud
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: cloud
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: based platforms
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: base platform
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Amazon Web Services AWS) development
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Amazon Web Servic AWS) develop
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: technical support
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: technic support
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: vendor software
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: vendor softwar
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Microsoft SharePoint Managed coordination
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Microsoft SharePoint Manag coordin
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: contractors
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: contractor
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: application development
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: applic develop
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: final product deployment
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: final product deploy
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: multiple government systems
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: multipl govern system
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Worked
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Work
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: directly
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: directli
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: users
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: user
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: build
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: build
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: use-cases
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: use-cas
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: define
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: defin
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: application requirements
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: applic requir
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: business processes
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: busi process
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Responsible
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Respons
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: application life cycles
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: applic life cycl
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: composing
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: compos
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Estimate documents
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Estimat document
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: developing testing
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: develop test
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: application
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: applic
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: creating
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: creat
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: scripts
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: script
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: authoring user level developer level documentation
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: author user level develop level document
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Cleared
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Clear
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Top Secret information
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Top Secret inform
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: granted
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: grant
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: access
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: access
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Sensitive Compartmented Information
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Sensit Compart Informat
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: based
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: base
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Single Scope Background Investigation Supervisor
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Singl Scope Background Investig Supervisor
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Ajay Kodali 202-231-3171
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Ajai Kodali 202-231-3171
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: contact
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: contact
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Supervisor
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Supervisor
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Defense Intelligence Agency
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Defens Intellig Agenci
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Deployment Bagram Bagram
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Deploy Bagram Bagram
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Afghanistan 11/2012
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Afghanistan 11/2012
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: 05/2013 Hours
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: 05/2013 Hour
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: 80 Series
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: 80 Seri
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: 2210 Pay Plan
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: 2210 Pai Plan
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: GG Grade
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: GG Grade
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: 13 5/13/2015 USAJOBS
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: 13 5/13/2015 USAJOBS
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Resumes
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Resum
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: https
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: http
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: ://my
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: ://my
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: .usajobs.gov/Applicant/Resume/ListResumes
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: .usajobs.gov/Applicant/Resume/ListResum
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: 2/3
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: 2/3
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: C4ISR Planner
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: C4ISR Planner
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: federal job Duties
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: feder job Duti
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Accomplishments
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Accomplish
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Skills
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Skill
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Lead planner
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Lead planner
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: coordinating
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: coordin
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: installation
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: instal
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Top Secret JWICS SCIFs
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Top Secret JWICS SCIF
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: AOR Area
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: AOR Area
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Responsibility
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Respons
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Kabul Herat Mezari Serif Managed coordination
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Kabul Herat Mezari Serif Manag coordin
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: contractors
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: contractor
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Networks
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Network
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Desk Support
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Desk Support
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Server Operations Worked
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Server Operat Work
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: alongside
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: alongsid
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: leadership
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: leadership
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: create enforce
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: creat enforc
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: policy
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: polici
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Created
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Creat
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: managed
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: manag
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: maintained
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: maintain
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: SharePoint sites
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: SharePoint site
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: multiple networks
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: multipl network
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Defense Intelligence Agency
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Defens Intellig Agenci
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Deployment Camp Slayer Baghdad
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Deploy Camp Slayer Baghdad
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Iraq 03/2010
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Iraq 03/2010
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: 09/2010 Hours
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: 09/2010 Hour
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: 80 Series
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: 80 Seri
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: 2210 Pay Plan
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: 2210 Pai Plan
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: GG Grade
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: GG Grade
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: 12 Knowledge Manager
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: 12 Knowledg Manag
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: federal job Duties
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: feder job Duti
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Accomplishments
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Accomplish
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Skills
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Skill
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: technical support
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: technic support
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: multiple sections
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: multipl section
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: USF-I United States Forces-Iraq Intelligence Community
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: USF-I Unite State Forces-Iraq Intellig Commun
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Victory Base Complex (VBC
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Victori Base Complex (VBC
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: International Zone
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Internat Zone
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Optimized
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Optimiz
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: simplified
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: simplifi
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: daily processes
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: daili process
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: existing/available technologies
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: existing/avail technologi
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: USSTRATCOM 901 SAC Blvd Offutt AFB
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: USSTRATCOM 901 SAC Blvd Offutt AFB
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: 68113 United States 03/2005
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: 68113 Unite State 03/2005
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: 10/2006 Hours
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: 10/2006 Hour
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: 40 Series
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: 40 Seri
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: 2210 Pay Plan
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: 2210 Pai Plan
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: GG Grade
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: GG Grade
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: 11
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: 11
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Specialist
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Specialist
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: federal job Duties
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: feder job Duti
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Accomplishments
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Accomplish
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Skills
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Skill
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Lead developer analyst
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Lead develop analyst
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: web based applications
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: web base applic
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: JAVA Oracle technologies
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: JAVA Oracl technologi
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: development
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: develop
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: technical support
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: technic support
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: vendor software
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: vendor softwar
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Oracle Portal
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Oracl Portal
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Microsoft SharePoint Managed coordination
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Microsoft SharePoint Manag coordin
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: contractors
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: contractor
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: application development
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: applic develop
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: final product deployment
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: final product deploy
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: multiple government systems
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: multipl govern system
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Worked
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Work
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: directly
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: directli
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: users
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: user
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: build
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: build
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: use-cases
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: use-cas
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: define
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: defin
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: application requirements
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: applic requir
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: business processes
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: busi process
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Responsible
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Respons
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: application life cycles
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: applic life cycl
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: composing
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: compos
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Estimate documents
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Estimat document
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: developing testing
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: develop test
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: application
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: applic
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: creating
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: creat
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: scripts
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: script
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: authoring user level developer level documentation
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: author user level develop level document
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Cleared
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Clear
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Top Secret information
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Top Secret inform
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: granted
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: grant
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: access
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: access
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Sensitive Compartmented Information
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Sensit Compart Informat
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: based
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: base
+2016-03-03 15:32:51 INFO  Opennlp:71 - OLD WORD: Single Scope Background Investigation
+2016-03-03 15:32:51 INFO  Opennlp:82 - NEW WORD: Singl Scope Background Investig
+2016-03-03 15:32:51 INFO  Opennlp:59 - DONE
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: save
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: alone
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: present
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: per
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: year
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: per
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: week
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: definitely
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: this
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: his
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: a
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: )
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: related
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: using
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: according
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: another
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: include
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: (
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: .
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: provided
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: include
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: .
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: insofar
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: from
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: onto
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: with
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: many
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: from
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: designed
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: another
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: tested
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: alone
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: a
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: .
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: (
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: )
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: okay
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: this
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: per
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: week
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: this
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: his
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: a
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: )
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: related
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: another
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: insofar
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: across
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: another
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: (
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: insofar
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: )
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: include
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: ,
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: .
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: insofar
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: aside
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: .
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: another
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: alone
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: per
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: week
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: this
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: his
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: a
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: )
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: related
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: provided
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: insofar
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: another
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: (
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: )
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: across
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: )
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: another
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: (
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: viz
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: .
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: their
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: using
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: alone
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: per
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: week
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: definitely
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: this
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: his
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: a
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: )
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: related
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: using
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: provided
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: include
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: .
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: insofar
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: from
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: onto
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: with
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: many
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: from
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: designed
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: another
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: tested
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: alone
+2016-03-03 15:33:50 INFO  Opennlp:156 - REMOVE WORD: a
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Defens Intellig Agenci 901 Blvd Offutt AFB
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: 68113 Unite State 10/2006
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Salari
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: 85,000.00 USD Hour
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: 40 Seri
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: 2210 Pai Plan
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: GG Grade
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: 13
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Specialist
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: feder job Duti
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Accomplish
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Skill
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Lead develop analyst
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: web base applic
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: JAVA
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: ASP .NET technologi
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Technic lead
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: agenc effort
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: migrat
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: applic
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: cloud
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: base platform
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Amazon Web Servic AWS) develop
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: technic support
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: vendor softwar
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Microsoft SharePoint Manag coordin
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: contractor
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: applic develop
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: final product deploy
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: multipl govern system
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Work
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: directli
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: user
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: build
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: use-cas
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: defin
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: applic requir
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: busi process
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Respons
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: applic life cycl
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: compos
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Estimat document
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: develop test
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: applic
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: creat
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: script
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: author user level develop level document
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Clear
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Top Secret inform
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: grant
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: access
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Sensit Compart Informat
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: base
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Singl Scope Background Investig Supervisor
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Ajai Kodali 202-231-3171
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: contact
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Supervisor
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Defens Intellig Agenci
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Deploy Bagram Bagram
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Afghanistan 11/2012
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: 05/2013 Hour
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: 80 Seri
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: 2210 Pai Plan
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: GG Grade
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: 13 5/13/2015 USAJOBS
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Resum
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: http
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: ://my
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: .usajobs.gov/Applicant/Resume/ListResum
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: 2/3
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: C4ISR Planner
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: feder job Duti
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Accomplish
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Skill
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Lead planner
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: coordin
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: instal
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Top Secret JWICS SCIF
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: AOR Area
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Respons
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Kabul Herat Mezari Serif Manag coordin
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: contractor
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Network
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Desk Support
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Server Operat Work
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: alongsid
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: leadership
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: creat enforc
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: polici
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Creat
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: manag
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: maintain
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: SharePoint site
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: multipl network
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Defens Intellig Agenci
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Deploy Camp Slayer Baghdad
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Iraq 03/2010
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: 09/2010 Hour
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: 80 Seri
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: 2210 Pai Plan
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: GG Grade
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: 12 Knowledg Manag
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: feder job Duti
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Accomplish
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Skill
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: technic support
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: multipl section
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: USF-I Unite State Forces-Iraq Intellig Commun
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Victori Base Complex (VBC
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Internat Zone
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Optimiz
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: simplifi
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: daili process
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: existing/avail technologi
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: USSTRATCOM 901 SAC Blvd Offutt AFB
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: 68113 Unite State 03/2005
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: 10/2006 Hour
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: 40 Seri
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: 2210 Pai Plan
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: GG Grade
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: 11
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Specialist
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: feder job Duti
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Accomplish
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Skill
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Lead develop analyst
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: web base applic
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: JAVA Oracl technologi
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: develop
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: technic support
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: vendor softwar
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Oracl Portal
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Microsoft SharePoint Manag coordin
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: contractor
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: applic develop
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: final product deploy
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: multipl govern system
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Work
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: directli
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: user
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: build
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: use-cas
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: defin
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: applic requir
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: busi process
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Respons
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: applic life cycl
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: compos
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Estimat document
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: develop test
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: applic
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: creat
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: script
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: author user level develop level document
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Clear
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Top Secret inform
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: grant
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: access
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Sensit Compart Informat
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: base
+2016-03-03 15:33:50 INFO  Opennlp:60 - WORDS: Singl Scope Background Investig
+2016-03-03 15:33:50 INFO  Opennlp:63 - DONE
+2016-03-03 15:37:02 DEBUG ScratchFileBuffer:516 - ScratchFileBuffer not closed!
+2016-03-07 07:58:33 DEBUG ScratchFileBuffer:516 - ScratchFileBuffer not closed!
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: save
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: alone
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: present
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: per
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: year
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: per
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: week
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: definitely
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: this
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: his
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: a
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: )
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: related
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: using
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: according
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: another
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: include
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: (
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: .
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: provided
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: include
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: .
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: insofar
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: from
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: onto
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: with
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: many
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: from
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: designed
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: another
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: tested
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: alone
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: a
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: .
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: (
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: )
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: okay
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: this
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: per
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: week
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: this
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: his
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: a
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: )
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: related
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: another
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: insofar
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: across
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: another
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: (
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: insofar
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: )
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: include
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: ,
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: .
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: insofar
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: aside
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: .
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: another
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: alone
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: per
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: week
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: this
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: his
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: a
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: )
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: related
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: provided
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: insofar
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: another
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: (
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: )
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: across
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: )
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: another
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: (
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: viz
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: .
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: their
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: using
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: alone
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: per
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: week
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: definitely
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: this
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: his
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: a
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: )
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: related
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: using
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: provided
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: include
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: .
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: insofar
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: from
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: onto
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: with
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: many
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: from
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: designed
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: another
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: tested
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: alone
+2016-03-07 07:58:35 INFO  Opennlp:156 - REMOVE WORD: a
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Defens Intellig Agenci 901 Blvd Offutt AFB
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: 68113 Unite State 10/2006
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Salari
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: 85,000.00 USD Hour
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: 40 Seri
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: 2210 Pai Plan
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: GG Grade
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: 13
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Specialist
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: feder job Duti
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Accomplish
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Skill
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Lead develop analyst
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: web base applic
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: JAVA
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: ASP .NET technologi
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Technic lead
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: agenc effort
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: migrat
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: applic
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: cloud
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: base platform
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Amazon Web Servic AWS) develop
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: technic support
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: vendor softwar
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Microsoft SharePoint Manag coordin
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: contractor
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: applic develop
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: final product deploy
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: multipl govern system
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Work
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: directli
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: user
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: build
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: use-cas
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: defin
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: applic requir
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: busi process
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Respons
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: applic life cycl
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: compos
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Estimat document
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: develop test
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: applic
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: creat
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: script
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: author user level develop level document
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Clear
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Top Secret inform
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: grant
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: access
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Sensit Compart Informat
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: base
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Singl Scope Background Investig Supervisor
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Ajai Kodali 202-231-3171
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: contact
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Supervisor
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Defens Intellig Agenci
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Deploy Bagram Bagram
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Afghanistan 11/2012
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: 05/2013 Hour
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: 80 Seri
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: 2210 Pai Plan
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: GG Grade
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: 13 5/13/2015 USAJOBS
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Resum
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: http
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: ://my
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: .usajobs.gov/Applicant/Resume/ListResum
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: 2/3
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: C4ISR Planner
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: feder job Duti
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Accomplish
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Skill
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Lead planner
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: coordin
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: instal
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Top Secret JWICS SCIF
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: AOR Area
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Respons
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Kabul Herat Mezari Serif Manag coordin
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: contractor
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Network
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Desk Support
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Server Operat Work
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: alongsid
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: leadership
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: creat enforc
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: polici
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Creat
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: manag
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: maintain
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: SharePoint site
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: multipl network
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Defens Intellig Agenci
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Deploy Camp Slayer Baghdad
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Iraq 03/2010
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: 09/2010 Hour
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: 80 Seri
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: 2210 Pai Plan
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: GG Grade
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: 12 Knowledg Manag
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: feder job Duti
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Accomplish
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Skill
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: technic support
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: multipl section
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: USF-I Unite State Forces-Iraq Intellig Commun
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Victori Base Complex (VBC
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Internat Zone
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Optimiz
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: simplifi
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: daili process
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: existing/avail technologi
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: USSTRATCOM 901 SAC Blvd Offutt AFB
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: 68113 Unite State 03/2005
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: 10/2006 Hour
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: 40 Seri
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: 2210 Pai Plan
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: GG Grade
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: 11
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Specialist
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: feder job Duti
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Accomplish
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Skill
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Lead develop analyst
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: web base applic
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: JAVA Oracl technologi
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: develop
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: technic support
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: vendor softwar
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Oracl Portal
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Microsoft SharePoint Manag coordin
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: contractor
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: applic develop
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: final product deploy
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: multipl govern system
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Work
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: directli
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: user
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: build
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: use-cas
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: defin
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: applic requir
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: busi process
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Respons
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: applic life cycl
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: compos
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Estimat document
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: develop test
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: applic
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: creat
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: script
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: author user level develop level document
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Clear
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Top Secret inform
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: grant
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: access
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Sensit Compart Informat
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: base
+2016-03-07 07:58:42 INFO  Opennlp:67 - WORDS: Singl Scope Background Investig
+2016-03-07 07:58:42 INFO  Opennlp:70 - DONE
+2016-03-07 07:58:56 DEBUG ScratchFileBuffer:516 - ScratchFileBuffer not closed!
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: save
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: alone
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: present
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: per
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: year
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: per
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: week
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: definitely
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: this
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: his
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: a
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: )
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: related
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: using
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: according
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: another
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: include
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: (
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: .
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: provided
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: include
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: .
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: insofar
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: from
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: onto
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: with
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: many
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: from
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: designed
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: another
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: tested
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: alone
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: a
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: .
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: (
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: )
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: okay
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: this
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: per
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: week
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: this
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: his
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: a
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: )
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: related
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: another
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: insofar
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: across
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: another
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: (
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: insofar
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: )
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: include
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: ,
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: .
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: insofar
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: aside
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: .
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: another
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: alone
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: per
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: week
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: this
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: his
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: a
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: )
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: related
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: provided
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: insofar
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: another
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: (
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: )
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: across
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: )
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: another
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: (
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: viz
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: .
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: their
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: using
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: alone
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: per
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: week
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: definitely
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: this
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: his
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: a
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: )
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: related
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: using
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: provided
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: include
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: .
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: insofar
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: from
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: onto
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: with
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: many
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: from
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: designed
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: another
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: tested
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: alone
+2016-03-07 07:58:58 INFO  Opennlp:156 - REMOVE WORD: a
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: save
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: alone
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: present
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: per
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: year
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: per
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: week
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: definitely
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: this
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: his
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: a
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: )
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: related
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: using
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: according
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: another
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: include
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: (
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: .
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: provided
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: include
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: .
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: insofar
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: from
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: onto
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: with
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: many
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: from
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: designed
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: another
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: tested
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: alone
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: a
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: .
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: (
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: )
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: okay
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: this
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: per
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: week
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: this
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: his
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: a
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: )
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: related
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: another
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: insofar
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: across
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: another
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: (
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: insofar
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: )
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: include
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: ,
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: .
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: insofar
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: aside
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: .
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: another
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: alone
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: per
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: week
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: this
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: his
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: a
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: )
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: related
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: provided
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: insofar
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: another
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: (
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: )
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: across
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: )
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: another
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: (
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: viz
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: .
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: their
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: using
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: alone
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: per
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: week
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: definitely
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: this
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: his
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: a
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: )
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: related
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: using
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: provided
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: include
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: .
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: insofar
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: from
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: onto
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: with
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: many
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: from
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: designed
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: another
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: tested
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: and
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: before
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: into
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: alone
+2016-03-07 08:00:02 INFO  Opennlp:156 - REMOVE WORD: a
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Defens Intellig Agenci 901 Blvd Offutt AFB : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: 68113 Unite State 10/2006 : CD
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Salari : FW
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: 85,000.00 USD Hour : FW
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: 40 Seri : FW
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: 2210 Pai Plan : CD
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: GG Grade : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: 13 : CD
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Specialist : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: feder job Duti : NNS
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Accomplish : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Skill : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Lead develop analyst : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: web base applic : VBD
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: JAVA : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: ASP .NET technologi : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Technic lead : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: agenc effort : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: migrat : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: applic : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: cloud : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: base platform : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Amazon Web Servic AWS) develop : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: technic support : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: vendor softwar : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Microsoft SharePoint Manag coordin : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: contractor : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: applic develop : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: final product deploy : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: multipl govern system : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Work : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: directli : NNS
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: user : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: build : VB
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: use-cas : JJ
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: defin : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: applic requir : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: busi process : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Respons : NNS
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: applic life cycl : VBP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: compos : NNS
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Estimat document : VBG
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: develop test : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: applic : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: creat : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: script : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: author user level develop level document : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Clear : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Top Secret inform : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: grant : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: access : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Sensit Compart Informat : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: base : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Singl Scope Background Investig Supervisor : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Ajai Kodali 202-231-3171 : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: contact : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Supervisor : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Defens Intellig Agenci : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Deploy Bagram Bagram : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Afghanistan 11/2012 : NNPS
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: 05/2013 Hour : IN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: 80 Seri : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: 2210 Pai Plan : JJ
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: GG Grade : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: 13 5/13/2015 USAJOBS : CD
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Resum : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: http : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: ://my : IN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: .usajobs.gov/Applicant/Resume/ListResum : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: 2/3 : CD
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: C4ISR Planner : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: feder job Duti : NNS
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Accomplish : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Skill : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Lead planner : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: coordin : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: instal : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Top Secret JWICS SCIF : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: AOR Area : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Respons : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Kabul Herat Mezari Serif Manag coordin : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: contractor : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Network : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Desk Support : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Server Operat Work : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: alongsid : IN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: leadership : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: creat enforc : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: polici : NNS
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Creat : JJ
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: manag : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: maintain : VBP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: SharePoint site : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: multipl network : VB
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Defens Intellig Agenci : NNS
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Deploy Camp Slayer Baghdad : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Iraq 03/2010 : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: 09/2010 Hour : IN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: 80 Seri : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: 2210 Pai Plan : JJ
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: GG Grade : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: 12 Knowledg Manag : CD
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: feder job Duti : NNS
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Accomplish : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Skill : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: technic support : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: multipl section : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: USF-I Unite State Forces-Iraq Intellig Commun : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Victori Base Complex (VBC : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Internat Zone : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Optimiz : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: simplifi : JJ
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: daili process : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: existing/avail technologi : VBD
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: USSTRATCOM 901 SAC Blvd Offutt AFB : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: 68113 Unite State 03/2005 : CD
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: 10/2006 Hour : IN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: 40 Seri : FW
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: 2210 Pai Plan : CD
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: GG Grade : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: 11 : CD
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Specialist : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: feder job Duti : NNS
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Accomplish : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Skill : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Lead develop analyst : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: web base applic : VBD
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: JAVA Oracl technologi : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: develop : VB
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: technic support : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: vendor softwar : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Oracl Portal : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Microsoft SharePoint Manag coordin : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: contractor : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: applic develop : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: final product deploy : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: multipl govern system : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Work : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: directli : NNS
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: user : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: build : VB
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: use-cas : JJ
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: defin : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: applic requir : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: busi process : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Respons : NNS
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: applic life cycl : VBP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: compos : NNS
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Estimat document : VB
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: develop test : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: applic : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: creat : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: script : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: author user level develop level document : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Clear : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Top Secret inform : NNP
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: grant : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: access : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Sensit Compart Informat : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: base : NN
+2016-03-07 08:00:02 INFO  Opennlp:67 - WORDS: Singl Scope Background Investig : .
+2016-03-07 08:00:02 INFO  Opennlp:70 - DONE
+2016-03-07 08:00:58 DEBUG ScratchFileBuffer:516 - ScratchFileBuffer not closed!
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Defens Intellig Agenci 901 Blvd Offutt AFB : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: 68113 Unite State 10/2006 : CD
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Salari : FW
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: 85,000.00 USD Hour : FW
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: 40 Seri : FW
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: 2210 Pai Plan : CD
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: GG Grade : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: 13 : CD
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Specialist : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: feder job Duti : NNS
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Accomplish : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Skill : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Lead develop analyst : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: web base applic : VBD
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: JAVA : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: ASP .NET technologi : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Technic lead : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: agenc effort : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: migrat : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: applic : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: cloud : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: base platform : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Amazon Web Servic AWS) develop : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: technic support : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: vendor softwar : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Microsoft SharePoint Manag coordin : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: contractor : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: applic develop : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: final product deploy : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: multipl govern system : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Work : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: directli : NNS
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: user : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: build : VB
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: use-cas : JJ
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: defin : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: applic requir : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: busi process : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Respons : NNS
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: applic life cycl : VBP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: compos : NNS
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Estimat document : VBG
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: develop test : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: applic : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: creat : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: script : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: author user level develop level document : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Clear : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Top Secret inform : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: grant : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: access : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Sensit Compart Informat : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: base : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Singl Scope Background Investig Supervisor : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Ajai Kodali 202-231-3171 : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: contact : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Supervisor : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Defens Intellig Agenci : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Deploy Bagram Bagram : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Afghanistan 11/2012 : NNPS
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: 05/2013 Hour : IN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: 80 Seri : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: 2210 Pai Plan : JJ
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: GG Grade : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: 13 5/13/2015 USAJOBS : CD
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Resum : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: http : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: ://my : IN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: .usajobs.gov/Applicant/Resume/ListResum : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: 2/3 : CD
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: C4ISR Planner : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: feder job Duti : NNS
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Accomplish : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Skill : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Lead planner : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: coordin : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: instal : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Top Secret JWICS SCIF : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: AOR Area : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Respons : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Kabul Herat Mezari Serif Manag coordin : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: contractor : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Network : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Desk Support : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Server Operat Work : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: alongsid : IN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: leadership : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: creat enforc : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: polici : NNS
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Creat : JJ
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: manag : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: maintain : VBP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: SharePoint site : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: multipl network : VB
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Defens Intellig Agenci : NNS
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Deploy Camp Slayer Baghdad : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Iraq 03/2010 : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: 09/2010 Hour : IN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: 80 Seri : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: 2210 Pai Plan : JJ
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: GG Grade : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: 12 Knowledg Manag : CD
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: feder job Duti : NNS
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Accomplish : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Skill : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: technic support : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: multipl section : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: USF-I Unite State Forces-Iraq Intellig Commun : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Victori Base Complex (VBC : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Internat Zone : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Optimiz : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: simplifi : JJ
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: daili process : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: existing/avail technologi : VBD
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: USSTRATCOM 901 SAC Blvd Offutt AFB : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: 68113 Unite State 03/2005 : CD
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: 10/2006 Hour : IN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: 40 Seri : FW
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: 2210 Pai Plan : CD
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: GG Grade : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: 11 : CD
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Specialist : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: feder job Duti : NNS
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Accomplish : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Skill : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Lead develop analyst : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: web base applic : VBD
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: JAVA Oracl technologi : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: develop : VB
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: technic support : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: vendor softwar : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Oracl Portal : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Microsoft SharePoint Manag coordin : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: contractor : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: applic develop : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: final product deploy : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: multipl govern system : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Work : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: directli : NNS
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: user : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: build : VB
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: use-cas : JJ
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: defin : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: applic requir : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: busi process : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Respons : NNS
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: applic life cycl : VBP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: compos : NNS
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Estimat document : VB
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: develop test : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: applic : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: creat : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: script : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: author user level develop level document : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Clear : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Top Secret inform : NNP
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: grant : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: access : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Sensit Compart Informat : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: base : NN
+2016-03-07 08:00:59 INFO  Opennlp:67 - WORDS: Singl Scope Background Investig : .
+2016-03-07 08:00:59 INFO  Opennlp:70 - DONE
+2016-03-07 08:02:34 INFO  Opennlp:72 - WORDS: Defens Intellig Agenci 901 Blvd Offutt AFB : NNP
+2016-03-07 08:02:34 INFO  Opennlp:77 - DONE
+2016-03-07 08:02:53 DEBUG ScratchFileBuffer:516 - ScratchFileBuffer not closed!
+2016-03-07 08:03:35 DEBUG ScratchFileBuffer:516 - ScratchFileBuffer not closed!
+2016-03-07 08:03:50 INFO  Opennlp:73 - WORDS: Defens Intellig Agenci 901 Blvd Offutt AFB : NNP
+2016-03-07 08:05:00 DEBUG ScratchFileBuffer:516 - ScratchFileBuffer not closed!
+2016-03-07 08:05:08 INFO  Opennlp:74 - WORDS: Defens Intellig Agenci 901 Blvd Offutt AFB : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Defens Intellig Agenci 901 Blvd Offutt AFB : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: 68113 Unite State 10/2006 : CD
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Salari : FW
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: 85,000.00 USD Hour : FW
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: 40 Seri : FW
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: 2210 Pai Plan : CD
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: GG Grade : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: 13 : CD
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Specialist : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: feder job Duti : NNS
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Accomplish : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Skill : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Lead develop analyst : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: web base applic : VBD
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: JAVA : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: ASP .NET technologi : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Technic lead : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: agenc effort : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: migrat : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: applic : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: cloud : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: base platform : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Amazon Web Servic AWS) develop : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: technic support : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: vendor softwar : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Microsoft SharePoint Manag coordin : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: contractor : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: applic develop : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: final product deploy : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: multipl govern system : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Work : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: directli : NNS
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: user : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: build : VB
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: use-cas : JJ
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: defin : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: applic requir : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: busi process : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Respons : NNS
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: applic life cycl : VBP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: compos : NNS
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Estimat document : VBG
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: develop test : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: applic : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: creat : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: script : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: author user level develop level document : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Clear : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Top Secret inform : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: grant : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: access : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Sensit Compart Informat : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: base : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Singl Scope Background Investig Supervisor : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Ajai Kodali 202-231-3171 : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: contact : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Supervisor : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Defens Intellig Agenci : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Deploy Bagram Bagram : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Afghanistan 11/2012 : NNPS
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: 05/2013 Hour : IN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: 80 Seri : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: 2210 Pai Plan : JJ
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: GG Grade : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: 13 5/13/2015 USAJOBS : CD
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Resum : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: http : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: ://my : IN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: .usajobs.gov/Applicant/Resume/ListResum : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: 2/3 : CD
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: C4ISR Planner : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: feder job Duti : NNS
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Accomplish : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Skill : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Lead planner : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: coordin : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: instal : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Top Secret JWICS SCIF : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: AOR Area : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Respons : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Kabul Herat Mezari Serif Manag coordin : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: contractor : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Network : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Desk Support : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Server Operat Work : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: alongsid : IN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: leadership : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: creat enforc : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: polici : NNS
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Creat : JJ
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: manag : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: maintain : VBP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: SharePoint site : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: multipl network : VB
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Defens Intellig Agenci : NNS
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Deploy Camp Slayer Baghdad : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Iraq 03/2010 : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: 09/2010 Hour : IN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: 80 Seri : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: 2210 Pai Plan : JJ
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: GG Grade : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: 12 Knowledg Manag : CD
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: feder job Duti : NNS
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Accomplish : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Skill : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: technic support : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: multipl section : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: USF-I Unite State Forces-Iraq Intellig Commun : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Victori Base Complex (VBC : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Internat Zone : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Optimiz : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: simplifi : JJ
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: daili process : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: existing/avail technologi : VBD
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: USSTRATCOM 901 SAC Blvd Offutt AFB : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: 68113 Unite State 03/2005 : CD
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: 10/2006 Hour : IN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: 40 Seri : FW
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: 2210 Pai Plan : CD
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: GG Grade : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: 11 : CD
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Specialist : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: feder job Duti : NNS
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Accomplish : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Skill : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Lead develop analyst : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: web base applic : VBD
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: JAVA Oracl technologi : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: develop : VB
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: technic support : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: vendor softwar : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Oracl Portal : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Microsoft SharePoint Manag coordin : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: contractor : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: applic develop : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: final product deploy : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: multipl govern system : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Work : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: directli : NNS
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: user : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: build : VB
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: use-cas : JJ
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: defin : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: applic requir : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: busi process : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Respons : NNS
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: applic life cycl : VBP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: compos : NNS
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Estimat document : VB
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: develop test : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: applic : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: creat : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: script : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: author user level develop level document : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Clear : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Top Secret inform : NNP
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: grant : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: access : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Sensit Compart Informat : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: base : NN
+2016-03-07 08:07:05 INFO  Opennlp:69 - WORDS: Singl Scope Background Investig : .
+2016-03-07 08:07:05 INFO  Opennlp:80 - DONE
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Defens Intellig Agenci 901 Blvd Offutt AFB : NNP
+2016-03-07 08:07:41 INFO  Opennlp:75 - WORDS: Defens Intellig Agenci 901 Blvd Offutt AFB : NNP
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: 68113 Unite State 10/2006 : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Salari : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: 85,000.00 USD Hour : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: 40 Seri : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: 2210 Pai Plan : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: GG Grade : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: 13 : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Specialist : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: feder job Duti : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Accomplish : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Skill : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Lead develop analyst : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: web base applic : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: JAVA : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: ASP .NET technologi : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Technic lead : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: agenc effort : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: migrat : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: applic : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: cloud : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: base platform : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Amazon Web Servic AWS) develop : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: technic support : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: vendor softwar : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Microsoft SharePoint Manag coordin : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: contractor : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: applic develop : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: final product deploy : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: multipl govern system : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Work : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: directli : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: user : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: build : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: use-cas : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: defin : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: applic requir : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: busi process : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Respons : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: applic life cycl : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: compos : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Estimat document : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: develop test : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: applic : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: creat : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: script : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: author user level develop level document : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Clear : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Top Secret inform : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: grant : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: access : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Sensit Compart Informat : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: base : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Singl Scope Background Investig Supervisor : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Ajai Kodali 202-231-3171 : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: contact : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Supervisor : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Defens Intellig Agenci : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Deploy Bagram Bagram : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Afghanistan 11/2012 : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: 05/2013 Hour : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: 80 Seri : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: 2210 Pai Plan : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: GG Grade : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: 13 5/13/2015 USAJOBS : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Resum : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: http : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: ://my : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: .usajobs.gov/Applicant/Resume/ListResum : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: 2/3 : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: C4ISR Planner : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: feder job Duti : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Accomplish : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Skill : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Lead planner : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: coordin : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: instal : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Top Secret JWICS SCIF : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: AOR Area : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Respons : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Kabul Herat Mezari Serif Manag coordin : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: contractor : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Network : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Desk Support : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Server Operat Work : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: alongsid : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: leadership : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: creat enforc : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: polici : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Creat : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: manag : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: maintain : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: SharePoint site : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: multipl network : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Defens Intellig Agenci : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Deploy Camp Slayer Baghdad : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Iraq 03/2010 : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: 09/2010 Hour : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: 80 Seri : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: 2210 Pai Plan : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: GG Grade : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: 12 Knowledg Manag : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: feder job Duti : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Accomplish : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Skill : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: technic support : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: multipl section : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: USF-I Unite State Forces-Iraq Intellig Commun : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Victori Base Complex (VBC : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Internat Zone : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Optimiz : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: simplifi : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: daili process : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: existing/avail technologi : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: USSTRATCOM 901 SAC Blvd Offutt AFB : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: 68113 Unite State 03/2005 : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: 10/2006 Hour : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: 40 Seri : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: 2210 Pai Plan : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: GG Grade : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: 11 : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Specialist : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: feder job Duti : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Accomplish : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Skill : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Lead develop analyst : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: web base applic : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: JAVA Oracl technologi : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: develop : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: technic support : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: vendor softwar : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Oracl Portal : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Microsoft SharePoint Manag coordin : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: contractor : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: applic develop : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: final product deploy : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: multipl govern system : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Work : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: directli : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: user : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: build : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: use-cas : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: defin : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: applic requir : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: busi process : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Respons : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: applic life cycl : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: compos : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Estimat document : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: develop test : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: applic : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: creat : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: script : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: author user level develop level document : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Clear : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Top Secret inform : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: grant : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: access : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Sensit Compart Informat : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: base : CD
+2016-03-07 08:07:41 INFO  Opennlp:69 - WORDS: Singl Scope Background Investig : CD
+2016-03-07 08:07:41 INFO  Opennlp:80 - DONE
+2016-03-07 08:07:48 INFO  Opennlp:75 - WORDS: Defens Intellig Agenci 901 Blvd Offutt AFB : NNP
+2016-03-07 08:07:48 INFO  Opennlp:80 - DONE
+2016-03-07 08:09:00 DEBUG ScratchFileBuffer:516 - ScratchFileBuffer not closed!
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Defens Intellig Agenci 901 Blvd Offutt AFB : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Salari : FW
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: 85,000.00 USD Hour : FW
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: 40 Seri : FW
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: GG Grade : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Specialist : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: feder job Duti : NNS
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Accomplish : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Skill : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Lead develop analyst : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: web base applic : VBD
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: JAVA : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: ASP .NET technologi : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Technic lead : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: agenc effort : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: migrat : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: applic : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: cloud : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: base platform : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Amazon Web Servic AWS) develop : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: technic support : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: vendor softwar : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Microsoft SharePoint Manag coordin : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: contractor : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: applic develop : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: final product deploy : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: multipl govern system : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Work : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: directli : NNS
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: user : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: build : VB
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: use-cas : JJ
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: defin : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: applic requir : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: busi process : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Respons : NNS
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: applic life cycl : VBP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: compos : NNS
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Estimat document : VBG
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: develop test : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: applic : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: creat : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: script : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: author user level develop level document : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Clear : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Top Secret inform : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: grant : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: access : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Sensit Compart Informat : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: base : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Singl Scope Background Investig Supervisor : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Ajai Kodali 202-231-3171 : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: contact : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Supervisor : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Defens Intellig Agenci : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Deploy Bagram Bagram : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Afghanistan 11/2012 : NNPS
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: 05/2013 Hour : IN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: 80 Seri : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: 2210 Pai Plan : JJ
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: GG Grade : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Resum : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: http : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: ://my : IN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: .usajobs.gov/Applicant/Resume/ListResum : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: C4ISR Planner : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: feder job Duti : NNS
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Accomplish : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Skill : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Lead planner : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: coordin : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: instal : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Top Secret JWICS SCIF : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: AOR Area : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Respons : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Kabul Herat Mezari Serif Manag coordin : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: contractor : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Network : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Desk Support : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Server Operat Work : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: alongsid : IN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: leadership : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: creat enforc : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: polici : NNS
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Creat : JJ
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: manag : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: maintain : VBP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: SharePoint site : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: multipl network : VB
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Defens Intellig Agenci : NNS
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Deploy Camp Slayer Baghdad : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Iraq 03/2010 : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: 09/2010 Hour : IN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: 80 Seri : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: 2210 Pai Plan : JJ
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: GG Grade : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: feder job Duti : NNS
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Accomplish : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Skill : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: technic support : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: multipl section : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: USF-I Unite State Forces-Iraq Intellig Commun : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Victori Base Complex (VBC : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Internat Zone : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Optimiz : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: simplifi : JJ
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: daili process : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: existing/avail technologi : VBD
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: USSTRATCOM 901 SAC Blvd Offutt AFB : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: 10/2006 Hour : IN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: 40 Seri : FW
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: GG Grade : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Specialist : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: feder job Duti : NNS
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Accomplish : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Skill : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Lead develop analyst : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: web base applic : VBD
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: JAVA Oracl technologi : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: develop : VB
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: technic support : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: vendor softwar : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Oracl Portal : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Microsoft SharePoint Manag coordin : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: contractor : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: applic develop : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: final product deploy : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: multipl govern system : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Work : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: directli : NNS
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: user : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: build : VB
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: use-cas : JJ
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: defin : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: applic requir : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: busi process : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Respons : NNS
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: applic life cycl : VBP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: compos : NNS
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Estimat document : VB
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: develop test : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: applic : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: creat : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: script : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: author user level develop level document : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Clear : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Top Secret inform : NNP
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: grant : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: access : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Sensit Compart Informat : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: base : NN
+2016-03-07 08:09:02 INFO  Opennlp:76 - WORDS: Singl Scope Background Investig : .
+2016-03-07 08:09:02 INFO  Opennlp:81 - DONE
