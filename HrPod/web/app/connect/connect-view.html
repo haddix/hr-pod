@@ -1,0 +1,80 @@
+<style>
+
+    .large{
+        font-size:18pt;
+    }
+
+
+</style>
+
+<section id="main-content">
+    <section class="wrapper"> 
+        <!-- start title and breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h3 class="page-header">
+                    <i class="icon_link"></i> Job Connection 
+                    <a href="#/connectionNew" class="pull-right" style="color:green;"><span class="icon_plus_alt"></span> Create a new connection</a>
+                </h3>                          
+                <hr/>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Existing Connections
+                    <span class="pull-right"><i class="icon_download"></i> download all</span>
+                </h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="list-group">
+                    <a class="list-group-item" href="#/connectionEdit">Software Developer <b>65444</b> - linked to <span class="label label-primary">5</span> resumes
+                        <span class="pull-right">
+                            <span><i class="icon_download"></i> download</span>
+                            <span style="color:red;"><i class="icon_close_alt"></i> delete</span>
+                        </span>
+                    </a>
+                    <a class="list-group-item" href="#/connectionEdit">Software Developer <b>65144</b> - linked to <span class="label label-primary">4</span> resumes
+                        <span class="pull-right">
+                            <span><i class="icon_download"></i> download</span>
+                            <span style="color:red;"><i class="icon_close_alt"></i> delete</span>
+                        </span>
+                    </a>
+                    <a class="list-group-item" href="#/connectionEdit">Data Scientist <b>98456</b> - linked to <span class="label label-primary">7</span> resumes
+                        <span class="pull-right">
+                            <span><i class="icon_download"></i> download</span>
+                            <span style="color:red;"><i class="icon_close_alt"></i> delete</span>
+                        </span>
+                    </a>
+                    <a class="list-group-item" href="#/connectionEdit">Service Desk <b>12255</b> - linked to <span class="label label-primary">15</span> resumes
+                        <span class="pull-right">
+                            <span><i class="icon_download"></i> download</span>
+                            <span style="color:red;"><i class="icon_close_alt"></i> delete</span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="workingModal" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">                    
+                    <div class="modal-body">
+
+                        <img src="images/pleaseWait.gif" alt=""/>
+                        {{loadingMessage}}
+                    </div>                    
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+    </section>
+</section>
+<script type="text/javascript">
+
+
+
+</script>

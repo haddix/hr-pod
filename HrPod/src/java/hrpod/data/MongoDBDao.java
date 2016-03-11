@@ -6,27 +6,18 @@
 package hrpod.data;
 
 import com.mongodb.BasicDBObject;
-import com.mongodb.BulkWriteOperation;
-import com.mongodb.BulkWriteResult;
-import com.mongodb.Cursor;
-import com.mongodb.DB;
-import com.mongodb.DBCollection;
 import com.mongodb.DBCursor;
 import com.mongodb.DBObject;
 import com.mongodb.MongoClient;
-import com.mongodb.ParallelScanOptions;
+import com.mongodb.client.FindIterable;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
-import com.mongodb.util.JSON;
+import org.apache.log4j.Logger;
 import org.bson.Document;
-
-import java.util.List;
-import java.util.Set;
-
-import static java.util.concurrent.TimeUnit.SECONDS;
 
 public class MongoDBDao {
 
+    final static Logger logger = Logger.getLogger(MongoDBDao.class);
     private MongoClient mongoClient;
     private MongoDatabase db;
     private String dbName = "hrpod";
@@ -36,17 +27,35 @@ public class MongoDBDao {
         this.db = mongoClient.getDatabase(dbName);
     }
 
+    public String find(String collectionName) {
+        String json = null;
+        MongoCollection<Document> collection = db.getCollection(collectionName);
+        FindIterable<Document> iterable = collection.find(new Document("Job Code", "10075"));
+        for(Document document : iterable){
+            json = document.toString();
+        }
+        return json;
+    }
+
     private void insertDocument(String json, String collectionName) {
         MongoCollection<Document> collection = db.getCollection(collectionName);
         collection.insertOne(Document.parse(json));
     }
-    
-    public void insertResume(String json){
+
+    public void insertResume(String json) {
         insertDocument(json, "resumes");
     }
-    
-    public void insertJobPosition(String json){
-        insertDocument(json, "positions");
+
+    public void insertJobs(String json) {
+        insertDocument(json, "jobs");
+    }
+
+    public void insertJobsNLP(String json) {
+        insertDocument(json, "jobs");
+    }
+
+    public void insertJobsHash(String json) {
+        insertDocument(json, "jobs");
     }
 
 }

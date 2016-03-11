@@ -6,14 +6,25 @@
 package hrpod.web;
 
 import hrpod.businesslogic.IngestDataBL;
+import java.io.BufferedReader;
+import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import org.json.simple.JSONObject;
+import org.apache.commons.fileupload.FileItemIterator;
+import org.apache.commons.fileupload.FileItemStream;
+import org.apache.commons.fileupload.servlet.ServletFileUpload;
+import org.apache.log4j.Logger;
+import org.apache.pdfbox.io.RandomAccessFile;
+import org.apache.pdfbox.pdfparser.PDFParser;
+import org.json.JSONArray;
+import org.json.JSONObject;
 
 /**
  *
@@ -21,6 +32,8 @@ import org.json.simple.JSONObject;
  */
 @WebServlet(name = "Upload", urlPatterns = {"/upload"})
 public class Upload extends HttpServlet {
+
+    final static Logger logger = Logger.getLogger(Upload.class);
 
     /**
      * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
@@ -36,16 +49,33 @@ public class Upload extends HttpServlet {
         response.setHeader("Content-Type", "application/json");
         response.setCharacterEncoding("utf8");
         response.setContentType("application/json");
-        
+
         try (PrintWriter out = response.getWriter()) {
-            /* TODO output your page here. You may use following sample code. */
-            IngestDataBL ingest = new IngestDataBL();
-            JSONObject json = ingest.doIngetsResume();
-            out.write(json.toJSONString());
+
+            try {
+                String uploadType = request.getParameter("type");
+                IngestDataBL ingest = new IngestDataBL();
+                ServletFileUpload upload = new ServletFileUpload();
+                FileItemIterator iterator = upload.getItemIterator(request);
+                while (iterator.hasNext()) {
+                    FileItemStream item = iterator.next();
+                    if (item.getName() != null) {
+                        if (uploadType.equals("resumes")) {
+                            ingest.doIngetsJobs(item.openStream());
+                        } else if (uploadType.equals("jobs")) {
+                            ingest.doIngetsJobs(item.openStream());
+                        }
+                    }
+                }
+                out.write("SUCCESS");
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
         }
     }
 
-    // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
+// <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**
      * Handles the HTTP <code>GET</code> method.
      *

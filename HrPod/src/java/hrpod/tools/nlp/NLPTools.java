@@ -9,6 +9,7 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -31,28 +32,59 @@ import org.tartarus.snowball.ext.PorterStemmer;
 public class NLPTools {
 
     final static Logger logger = Logger.getLogger(NLPTools.class);
-    private static String modelPath = "src/java/hrpod/tools/nlp/models/";
+    private static String modelBasePath = "/hrpod/tools/nlp/models/";
+    private static POSModel posModel = null;
+    private static TokenizerModel tokenModel = null;
+    private static ChunkerModel chunkerModel = null;
+
+    
+    public NLPTools(){
+
+    }
+                
+    
 
     public ArrayList getTokens(String txt) {
         ArrayList<String> wordList = null;
         try {
-            POSModel pm = new POSModel(new FileInputStream(new File(modelPath + "en-pos-maxent.bin")));
-            POSTaggerME posme = new POSTaggerME(pm);
-
+                        
+            POSTaggerME posme = new POSTaggerME(getPosModel());
             String words[] = tokenize(txt);//tokenize into words and phrases                        
-
             wordList = new StopWordRemoval().removeStopWords(words); //remove stop words
 
+            //String[] posTags = posme.tag(wordList.toArray(new String[0]));
+            logger.info("DONE");
+        } catch (Exception e) {
+            logger.error("ERROR in GetTokens", e);
+        }
+        finally{
+            
+        }
+        return wordList;
+    }
+    
+    
+    public ArrayList getStemmedTokens(String txt) {
+        ArrayList<String> wordList = null;
+        try {
+                        
+            POSTaggerME posme = new POSTaggerME(getPosModel());
+            String words[] = tokenize(txt);//tokenize into words and phrases                        
+            wordList = new StopWordRemoval().removeStopWords(words); //remove stop words
             wordList = stemmer(wordList);//stem words
 
             //String[] posTags = posme.tag(wordList.toArray(new String[0]));
             logger.info("DONE");
         } catch (Exception e) {
+            logger.error("ERROR in GetTokens", e);
+        }
+        finally{
+            
         }
         return wordList;
     }
 
-    public static ArrayList<String> stemmer(ArrayList<String> wordList) {
+    public ArrayList<String> stemmer(ArrayList<String> wordList) {
         PorterStemmer stemmer = new PorterStemmer();
         for (int wl = 0; wl < wordList.size(); wl++) {
             //logger.info("OLD WORD: " + wordList.get(wl));
@@ -73,22 +105,18 @@ public class NLPTools {
 
     }
 
-    public static String[] tokenize(String text) {
+    public String[] tokenize(String text) {
 
         String[] chunkStrings = null;
 
         try {
-            TokenizerModel tm = new TokenizerModel(new FileInputStream(new File(modelPath + "en-token.bin")));
-            TokenizerME wordBreaker = new TokenizerME(tm);
-            POSModel pm = new POSModel(new FileInputStream(new File(modelPath + "en-pos-maxent.bin")));
-            POSTaggerME posme = new POSTaggerME(pm);
-            InputStream modelIn = new FileInputStream(modelPath + "en-chunker.bin");
-            ChunkerModel chunkerModel = new ChunkerModel(modelIn);
-            ChunkerME chunkerME = new ChunkerME(chunkerModel);
+            TokenizerME wordBreaker = new TokenizerME(getTokenModel());            
+            POSTaggerME posme = new POSTaggerME(getPosModel());            
+            ChunkerME chunkerME = new ChunkerME(getChunkerModel());
 
             //words is the tokenized sentence
             String[] words = wordBreaker.tokenize(text);
-            //posTags are the parts of speech of every word in the sentence (The chunker needs this info of course)
+            //posTags are the parts of speech of every word in the sentence (The chunker needs this info)
             String[] posTags = posme.tag(words);
             //chunks are the start end "spans" indices to the chunks in the words array
             Span[] chunks = chunkerME.chunkAsSpans(words, posTags);
@@ -106,7 +134,8 @@ public class NLPTools {
             //}
             //}
             //}
-        } catch (IOException e) {
+        } catch (Exception e) {
+            logger.error("Error in tokenize", e);
         }
 
         return chunkStrings;
@@ -129,5 +158,50 @@ public class NLPTools {
             }
         }
         return outGrams;
+    }
+    
+    public POSModel getPosModel() {        
+        if(posModel == null)
+            setPosModel();
+        return posModel;
+    }
+
+    public void setPosModel() {        
+        try {
+            URL url = this.getClass().getResource(modelBasePath + "en-pos-maxent.bin");
+            this.posModel = new POSModel(new FileInputStream(new File(url.getFile())));
+        } catch (Exception e) {
+            logger.error("Error is setPosModel", e);
+        }
+    }
+
+    public TokenizerModel getTokenModel() {
+        if(tokenModel == null)
+            setTokenModel();
+        return tokenModel;
+    }
+
+    public void setTokenModel() {        
+        try {
+            URL tmUrl = this.getClass().getResource(modelBasePath + "en-token.bin");
+            this.tokenModel = new TokenizerModel(new FileInputStream(new File(tmUrl.getFile())));
+        } catch (Exception e) {
+            logger.error("Error is setTokenModel", e);
+        }
+    }
+
+    public ChunkerModel getChunkerModel() {
+        if(chunkerModel == null)
+            setChunkerModel();
+        return chunkerModel;
+    }
+
+    public void setChunkerModel() {        
+        try {
+            URL chUrl = this.getClass().getResource(modelBasePath + "en-chunker.bin");
+            this.chunkerModel = new ChunkerModel(new FileInputStream(new File(chUrl.getFile())));
+        } catch (Exception e) {
+            logger.error("Error is setChunkerModel", e);
+        }
     }
 }
